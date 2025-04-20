@@ -28,22 +28,22 @@
           </div>
           <!-- single slide -->
           <!-- <div class="swiper-slide">
-                                                                                                                    <div>
-                                                                                                                        <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
-                                                                                                                    </div>
-                                                                                                                </div> -->
+                                                                                                                            <div>
+                                                                                                                                <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
+                                                                                                                            </div>
+                                                                                                                        </div> -->
           <!-- single slide -->
           <!-- <div class="swiper-slide">
-                                                                                                                    <div>
-                                                                                                                        <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div> -->
+                                                                                                                            <div>
+                                                                                                                                <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div> -->
 
           <!-- <div class="ul-project-details-slider-nav ul-slider-nav">
-                                                                                                                <button class="prev"><i class="flaticon-back"></i></button>
-                                                                                                                <button class="next"><i class="flaticon-next"></i></button>
-                                                                                                            </div> -->
+                                                                                                                        <button class="prev"><i class="flaticon-back"></i></button>
+                                                                                                                        <button class="next"><i class="flaticon-next"></i></button>
+                                                                                                                    </div> -->
         </div>
 
         <div class="row gx-5 gy-4 mt-5 flex-column-reverse flex-lg-row">
@@ -279,8 +279,8 @@
                     <label for="have_passport" class="form-label">Do you have a valid passport?</label>
                     <select class="form-select" id="have_passport" name="have_passport">
                       <option value="">Choose...</option>
-                      <option value="1" {{ old('have_passport') == 1 ? 'selected' : '' }}>Yes</option>
-                      <option value="0" {{ old('have_passport') == 0 ? 'selected' : '' }}>No</option>
+                      <option value="1" {{ old('have_passport') == '1' ? 'selected' : '' }}>Yes</option>
+                      <option value="0" {{ old('have_passport') == '0' ? 'selected' : '' }}>No</option>
                     </select>
                     @error('have_passport')
                       <span class="text-danger">{{ $message }}</span>
@@ -291,8 +291,8 @@
                     <label for="neet_qualified" class="form-label">NEET Qualified?</label>
                     <select class="form-select" id="neet_qualified" name="neet_qualified">
                       <option value="">Choose...</option>
-                      <option value="1" {{ old('neet_qualified') == 1 ? 'selected' : '' }}>Yes</option>
-                      <option value="0" {{ old('neet_qualified') == 0 ? 'selected' : '' }}>No</option>
+                      <option value="1" {{ old('neet_qualified') == '1' ? 'selected' : '' }}>Yes</option>
+                      <option value="0" {{ old('neet_qualified') == '0' ? 'selected' : '' }}>No</option>
                     </select>
                     @error('neet_qualified')
                       <span class="text-danger">{{ $message }}</span>
