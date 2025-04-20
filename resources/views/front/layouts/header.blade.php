@@ -2,12 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>gyandeep-NGO</title>
   <!--Meta Tag Seo-->
-  {{-- @stack('seo_meta_tag')
-  @stack('pagination_tag') --}}
+  @stack('seo_meta_tag')
+  @stack('pagination_tag')
 
   <!-- libraries CSS -->
   <link rel="stylesheet" href="{{ url('front') }}/assets/icon/flaticon_charitics.css">
