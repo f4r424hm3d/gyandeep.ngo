@@ -144,11 +144,12 @@ Route::middleware([AdminLoggedIn::class])->group(function () {
     });
 
     Route::prefix('/static-page-seos')->group(function () {
-      Route::get('/', [StaticPageSeoC::class, 'index']);
-      Route::post('/store/', [StaticPageSeoC::class, 'store']);
-      Route::get('/delete/{id}/', [StaticPageSeoC::class, 'delete']);
-      Route::get('/update/{id}/', [StaticPageSeoC::class, 'index']);
-      Route::post('/update/{id}/', [StaticPageSeoC::class, 'update']);
+      Route::get('', [StaticPageSeoC::class, 'index']);
+      Route::get('get-data', [StaticPageSeoC::class, 'getData']);
+      Route::get('/delete/{id}', [StaticPageSeoC::class, 'delete']);
+      Route::get('/update/{id}', [StaticPageSeoC::class, 'index']);
+      Route::post('/update/{id}', [StaticPageSeoC::class, 'update']);
+      Route::post('/store', [StaticPageSeoC::class, 'store']);
     });
     Route::prefix('/dynamic-page-seos')->group(function () {
       Route::get('/', [DynamicPageSeoC::class, 'index']);

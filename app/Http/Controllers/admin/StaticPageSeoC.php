@@ -5,7 +5,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use App\Models\StaticPageSeo;
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Validator;
 
 class StaticPageSeoC extends Controller
 {
@@ -16,7 +16,8 @@ class StaticPageSeoC extends Controller
   }
   public function index($id = null)
   {
-    $rows = StaticPageSeo::all();
+    $page_no = $_GET['page'] ?? 1;
+    $rows = StaticPageSeo::get();
     if ($id != null) {
       $sd = StaticPageSeo::find($id);
       if (!is_null($sd)) {
@@ -34,97 +35,114 @@ class StaticPageSeoC extends Controller
     }
     $page_title = "Static Page Seo";
     $page_route = $this->page_route;
-    $data = compact('rows', 'sd', 'ft', 'url', 'title', 'page_title', 'page_route');
+    $data = compact('rows', 'sd', 'ft', 'url', 'title', 'page_title', 'page_route', 'page_no');
     return view('admin.static-page-seos')->with($data);
   }
+  public function getData(Request $request)
+  {
+    $rows = StaticPageSeo::where('id', '!=', '0');
+    $rows = $rows->paginate(10)->withPath('/admin/' . $this->page_route . '/');
+    $i = 1;
+    $output = '<table id="datatable" class="table table-bordered dt-responsive nowrap w-100">
+    <thead>
+      <tr>
+        <th>S.No.</th>
+        <th>Page</th>
+        <th>Title</th>
+        <th>Keyword</th>
+        <th>Description</th>
+        <th>Review Schema</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>';
+    foreach ($rows as $row) {
+      $editUrl = url('admin/' . $this->page_route . '/update/' . $row->id);
+      $deleteButton = view('components.delete-button', ['id' => $row->id])->render();
+      $editButton = view('components.edit-button', ['url' => $editUrl])->render();
+
+      $output .= '<tr id="row' . $row->id . '">
+        <td>' . $i . '</td>
+        <td>' . $row->url . '</td>
+        <td>' . $row->meta_title . '</td>
+        <td>' . $row->meta_keyword . '</td>
+        <td>' . view('components.view-on-modal', [
+        'id' => 'metaDescription' . $row->id,
+        'title' => 'SEO',
+        'content' => $row->meta_description
+      ])->render() . '</td>
+      <td>
+        <b>Rating : ' . $row->seo_rating . '</b> <br>
+        <b>Best Rating : ' . $row->best_rating . '</b> <br>
+        <b>Review : ' . $row->review_number . '</b>
+        </td>';
+      $output .= '<td>
+        ' . $deleteButton . '
+        ' . $editButton . '
+        </td>
+      </tr>';
+      $i++;
+    }
+    $output .= '</tbody></table>';
+    $output .= '<div>' . $rows->links('pagination::bootstrap-5') . '</div>';
+    return $output;
+  }
+
   public function store(Request $request)
   {
-    // printArray($request->all());
-    // die;
-    $request->validate(
-      [
-        'page' => [
-          'required',
-          Rule::unique('static_page_seos', 'page')->where('website', site_var),
-        ],
-      ]
-    );
+    $validator = Validator::make($request->all(), [
+      'url' => 'required|unique:static_page_seos,url',
+      'seo_rating' => 'nullable|numeric',
+    ]);
+
+    if ($validator->fails()) {
+
+      return response()->json([
+        'error' => $validator->errors(),
+      ]);
+    }
+
     $field = new StaticPageSeo;
-    $field->website = site_var;
-    $field->page = $request['page'];
-    $field->title = $request['title'];
-    $field->keyword = $request['keyword'];
-    $field->description = $request['description'];
-    $field->page_content = $request['page_content'];
+    $field->url = $request['url'];
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
     $field->seo_rating = $request['seo_rating'];
     $field->best_rating = $request['best_rating'];
     $field->review_number = $request['review_number'];
-    if ($request->hasFile('og_image')) {
-      $fileOriginalName = $request->file('og_image')->getClientOriginalName();
-      $fileNameWithoutExtention = pathinfo($fileOriginalName, PATHINFO_FILENAME);
-      $file_name_slug = slugify($fileNameWithoutExtention);
-      $fileExtention = $request->file('og_image')->getClientOriginalExtension();
-      $file_name = $file_name_slug . '_' . time() . '.' . $fileExtention;
-      $move = $request->file('og_image')->move('uploads/seo/', $file_name);
-      if ($move) {
-        $field->ogimgname = $file_name;
-        $field->ogimgpath = 'uploads/seo/' . $file_name;
-      } else {
-        session()->flash('emsg', 'Some problem occured. File not uploaded.');
-      }
-    }
     $field->save();
-    session()->flash('smsg', 'New record has been added successfully.');
-    return redirect('admin/' . $this->page_route);
+    return response()->json(['success' => 'Record hase been added succesfully.']);
+  }
+  public function delete($id)
+  {
+    if ($id) {
+      $row = StaticPageSeo::find($id)->delete();
+      $result = $row->delete();
+      if ($result) {
+        return response()->json(['success' => true]);
+      }
+    } else {
+      return response()->json(['success' => false]);
+    }
   }
   public function update($id, Request $request)
   {
     $request->validate(
       [
-        'page' => [
-          'required',
-          Rule::unique('static_page_seos', 'page')
-            ->ignore($id)
-            ->where('website', site_var),
-        ],
+        'url' => 'required|unique:static_page_seos,url,' . $id,
+        'seo_rating' => 'nullable|numeric',
       ]
     );
     $field = StaticPageSeo::find($id);
-    $field->website = site_var;
-    $field->page = $request['page'];
-    $field->title = $request['title'];
-    $field->keyword = $request['keyword'];
-    $field->description = $request['description'];
-    $field->page_content = $request['page_content'];
+    $field->url = $request['url'];
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
     $field->seo_rating = $request['seo_rating'];
     $field->best_rating = $request['best_rating'];
     $field->review_number = $request['review_number'];
-    if ($request->hasFile('og_image')) {
-      $fileOriginalName = $request->file('og_image')->getClientOriginalName();
-      $fileNameWithoutExtention = pathinfo($fileOriginalName, PATHINFO_FILENAME);
-      $file_name_slug = slugify($fileNameWithoutExtention);
-      $fileExtention = $request->file('og_image')->getClientOriginalExtension();
-      $file_name = $file_name_slug . '_' . time() . '.' . $fileExtention;
-      $move = $request->file('og_image')->move('uploads/seo/', $file_name);
-      if ($move) {
-        $field->ogimgname = $file_name;
-        $field->ogimgpath = 'uploads/seo/' . $file_name;
-      } else {
-        session()->flash('emsg', 'Some problem occured. File not uploaded.');
-      }
-    }
     $field->save();
     session()->flash('smsg', 'Record has been updated successfully.');
     return redirect('admin/' . $this->page_route);
-  }
-  public function delete($id)
-  {
-    //echo $id;
-    $result = StaticPageSeo::find($id)->delete();
-    if ($result) {
-      return response()->json(['success' => true]);
-    } else {
-      return response()->json(['success' => false]);
-    }
   }
 }
