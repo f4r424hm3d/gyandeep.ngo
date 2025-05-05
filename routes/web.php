@@ -69,7 +69,7 @@ Route::get('/thank-you', [HomeFc::class, 'thankYou'])->name('thank.you');
 
 Route::prefix('/en')->group(function () {
   Route::post('/mbbs-scholarship-application', [InquiryFc::class, 'mbbsScholarshipApplication'])->name('mbbs.scholarship.en');
-  Route::post('/contact-us', [InquiryFc::class, 'contact'])->name('contact.en');
+  Route::post('/contact-us', [InquiryFc::class, 'contact'])->name('contact.en')->middleware('throttle:5,1');
 });
 
 
