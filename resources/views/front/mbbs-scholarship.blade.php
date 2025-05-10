@@ -333,8 +333,8 @@
                   </div>
                   <div class="form-group">
 
-                    <div class="input-group">
-                      <div class="input-icon"><span class="ti-captcha_answer">
+                    <div class="input-group mb-3">
+                      <div class="input-group-text input-icon" ><span class="ti-captcha_answer">
                           <label for="captcha_question">{{ $question['text'] }}</label>
                         </span></div>
                       <input type="number" name="captcha_answer" class="form-control"

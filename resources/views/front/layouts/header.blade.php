@@ -82,8 +82,8 @@
           <div class="to-go-to-sidebar-in-mobile">
             <nav class="ul-header-nav">
               <a href="{{ route('home') }}" role="button">Home</a>
-
-              <div class="has-sub-menu">
+              <a href="{{ route('about') }}">About</a>
+              <!-- <div class="has-sub-menu">
                 <a href="{{ route('about') }}">About</a>
 
                 <div class="ul-header-submenu">
@@ -92,7 +92,7 @@
 
                   </ul>
                 </div>
-              </div>
+              </div> -->
 
               <div class="has-sub-menu">
                 <a href="{{ route('services') }}">Services</a>

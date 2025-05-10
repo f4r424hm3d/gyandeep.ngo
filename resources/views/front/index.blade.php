@@ -172,7 +172,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-1.png" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/education-based.jpeg" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -229,7 +229,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-3.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/support-skill.jpeg" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -315,7 +315,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-6.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/school-donations.jpeg" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -1078,7 +1078,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/awarness.jpg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/awarenesssd.jpeg" alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>

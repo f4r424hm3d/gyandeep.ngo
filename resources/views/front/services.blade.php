@@ -45,7 +45,7 @@
           <div class="col">
             <div class="ul-service ul-service--inner">
               <div class="ul-service-img">
-                <img src="{{ asset('front') }}/assets/img/Rehabilitation.jpg" alt="Service Image">
+                <img src="{{ asset('front') }}/assets/img/child-playing.jpeg" alt="Service Image">
               </div>
               <div class="ul-service-txt">
                 <h3 class="ul-service-title"><a

@@ -174,7 +174,7 @@
             <!-- tab 02 / vision -->
             <div id="tab-vision" class="ul-tab ul-about-tab">
               <div class="ul-about-tab-img">
-                <img src="{{ asset('front') }}/assets/img/vission.jpeg" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/vissons.jpeg" alt="Image">
               </div>
 
               <div class="ul-about-tab-txt">
@@ -257,8 +257,7 @@
           </div>
         </div>
 
-        <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
-          <!-- single member -->
+        <!-- <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
           <div class="col">
             <div class="ul-team-member">
               <div class="ul-team-member-img">
@@ -277,11 +276,10 @@
             </div>
           </div>
 
-          <!-- single member -->
           <div class="col">
             <div class="ul-team-member">
               <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/rahul-sharma.jpeg" alt="Team Member Image">
+                <img src="{{ asset('front') }}/assets/img/puran-chand.jpg" alt="Team Member Image">
                 <div class="ul-team-member-socials">
                   <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
                   <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
@@ -290,50 +288,118 @@
                 </div>
               </div>
               <div class="ul-team-member-info">
-                <h3 class="ul-team-member-name"><a href="#">Rahul-Sharma</a></h3>
+                <h3 class="ul-team-member-name"><a href="#">Puran Chand</a></h3>
                 <p class="ul-team-member-designation">President</p>
               </div>
             </div>
           </div>
 
-          <!-- single member -->
-          <!-- <div class="col">
-                                      <div class="ul-team-member">
-                                          <div class="ul-team-member-img">
-                                              <img src="{{ asset('front') }}/assets/img/member-3.jpg" alt="Team Member Image">
-                                              <div class="ul-team-member-socials">
-                                                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                              </div>
-                                          </div>
-                                          <div class="ul-team-member-info">
-                                              <h3 class="ul-team-member-name"><a href="#">John Doe</a></h3>
-                                              <p class="ul-team-member-designation">Attorney</p>
-                                          </div>
-                                      </div>
-                                  </div> -->
+        </div> -->
 
-          <!-- single member -->
-          <!-- <div class="col">
-                                      <div class="ul-team-member">
-                                          <div class="ul-team-member-img">
-                                              <img src="{{ asset('front') }}/assets/img/member-4.jpg" alt="Team Member Image">
-                                              <div class="ul-team-member-socials">
-                                                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                              </div>
-                                          </div>
-                                          <div class="ul-team-member-info">
-                                              <h3 class="ul-team-member-name"><a href="#">John Doe</a></h3>
-                                              <p class="ul-team-member-designation">Attorney</p>
-                                          </div>
-                                      </div>
-                                  </div> -->
+
+
+
+
+        <!-- duplicate section start -->
+
+
+        <div class="row ul-team-row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="row ul-team-member main-member">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-6">
+            <div class="ul-team-member-img">
+                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+                <div class="ul-team-member-socials">
+                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-7 col-md-8 col-lg-6">
+            <div class="ul-team-member-info">
+                <h3 class="ul-team-member-name"><a href="#">Aman Ahlawat</a></h3>
+                <p class="ul-team-memberd">General Secretary</p>
+                <p class="ul-team-member-designation" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia dignissimos odio eum. Nostrum rem minima unde hic nobis provident explicabo culpa pariatur expedita quam, fugit dolorum aliquam atque corrupti repellat.</p>
+              </div>
+            </div>
+            </div>
+           
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="row ul-team-member main-member">
+          <div class="col-12 col-sm-5 col-md-4 col-lg-6">
+          <div class="ul-team-member-img">
+                <img src="{{ asset('front') }}/assets/img/puran-chand.jpg" alt="Team Member Image">
+                <div class="ul-team-member-socials">
+                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-7 col-md-8 col-lg-6">
+          <div class="ul-team-member-info">
+                <h3 class="ul-team-member-name"><a href="#">Puran Chand</a></h3>
+                <p class="ul-team-memberd">President</p>
+                <p class="ul-team-member-designation" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia dignissimos odio eum. Nostrum rem minima unde hic nobis provident explicabo culpa pariatur expedita quam, fugit dolorum aliquam atque corrupti repellat.</p>
+              </div>
+          </div>
+          </div>
+           
+          </div>
+
         </div>
+
+
+
+         <!-- <section class="team-owner">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-6">
+              <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                <div class="owner-team">
+                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                <div class="owner-details">
+                  <h4>Aman Alawat</h4>
+                  <h6>General Secretary</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit, vitae ipsa tenetur pariatur voluptatibus expedita quibusdam vel saepe fugiat debitis aspernatur eveniet. Necessitatibus reprehenderit ipsum veniam facere sunt soluta.</p>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6">
+              <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                <div class="owner-team">
+                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                <div class="owner-details">
+                  <h4>Aman Alawat</h4>
+                  <h6>General Secretary</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit, vitae ipsa tenetur pariatur voluptatibus expedita quibusdam vel saepe fugiat debitis aspernatur eveniet. Necessitatibus reprehenderit ipsum veniam facere sunt soluta.</p>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+         
+          </div>
+         </section> -->
+        <!-- duplicate section end -->
+
+
+
+
       </div>
     </section>
     <!-- TEAM SECTION END -->

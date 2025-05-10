@@ -117,7 +117,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-3.jpeg" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.jpeg" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>
