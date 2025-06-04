@@ -42,8 +42,8 @@
               <div class="img-wrapper">
                 <img src="{{ asset('front') }}/assets/img/gn-front.jpeg" alt="Banner Image">
                 <!-- <div class="ul-banner-video-btn">
-                                                          <a href=""></a>
-                                                      </div> -->
+                                                                    <a href=""></a>
+                                                                </div> -->
               </div>
               <div class="ul-banner-img-vectors">
                 <img src="{{ asset('front') }}/assets/img/banner-img-vector-1.png" alt="vector"
@@ -549,13 +549,15 @@
                   <span class="date">18 <span>Aug</span></span>
                 </div>
                 <div class="ul-event-txt">
-                  <h3 class="ul-event-title"><a href="event-details.html">Sparsh 2024 – Devices That Empower.</a></h3>
+                  <h3 class="ul-event-title"><a
+                      href="{{ route('event.detail', ['event_slug' => 'event-details']) }}">Sparsh 2024 – Devices That
+                      Empower.</a></h3>
                   <p class="ul-event-descr">Aids like wheelchairs & hearing tools shared with 300+ people.</p>
                   <div class="ul-event-info">
                     <span class="ul-event-info-title">Venue</span>
                     <p class="ul-event-info-descr">Dasuya Community Hall Punjab, India</p>
                   </div>
-                  <a href="event-details.html" class="ul-btn"><i
+                  <a href="{{ route('event.detail', ['event_slug' => 'event-details']) }}" class="ul-btn"><i
                       class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                 </div>
               </div>
@@ -569,7 +571,9 @@
                   <span class="date">15 <span>Dec</span></span>
                 </div>
                 <div class="ul-event-txt">
-                  <h3 class="ul-event-title"><a href="event-details-one.html">Udaan – Vocational Training Showcase</a>
+                  <h3 class="ul-event-title"><a
+                      href="{{ route('event.detail', ['event_slug' => 'event-details-one']) }}">Udaan – Vocational
+                      Training Showcase</a>
                   </h3>
                   <p class="ul-event-descr">Udaan showcased skills & certified trainees for self-employment.</p>
                   <div class="ul-event-info">
@@ -577,7 +581,7 @@
                     <p class="ul-event-info-descr">Gyandeep Vocational Training Center
                       Dasuya, Punjab</p>
                   </div>
-                  <a href="event-details-one.html" class="ul-btn"><i
+                  <a href="{{ route('event.detail', ['event_slug' => 'event-details-one']) }}" class="ul-btn"><i
                       class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                 </div>
               </div>
@@ -591,7 +595,9 @@
                   <span class="date">20 <span>May</span></span>
                 </div>
                 <div class="ul-event-txt">
-                  <h3 class="ul-event-title"><a href="event-details-two.html">Aasha 2023 – Healing Minds Together</a>
+                  <h3 class="ul-event-title"><a
+                      href="{{ route('event.detail', ['event_slug' => 'event-details-two']) }}">Aasha 2023 – Healing
+                      Minds Together</a>
                   </h3>
                   <p class="ul-event-descr">Support camp with therapy, yoga & guidance for parents of special kids.</p>
                   <div class="ul-event-info">
@@ -599,7 +605,7 @@
                     <p class="ul-event-info-descr">Gyandeep School
                       Dasuya, Punjab</p>
                   </div>
-                  <a href="event-details-two.html" class="ul-btn"><i
+                  <a href="{{ route('event.detail', ['event_slug' => 'event-details-two']) }}" class="ul-btn"><i
                       class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                 </div>
               </div>
@@ -613,14 +619,16 @@
                   <span class="date">25 <span>Nov</span></span>
                 </div>
                 <div class="ul-event-txt">
-                  <h3 class="ul-event-title"><a href="event-details-three.html">Saksham Bal Mela – Inclusive Fun
+                  <h3 class="ul-event-title"><a
+                      href="{{ route('event.detail', ['event_slug' => 'event-details-three']) }}">Saksham Bal Mela –
+                      Inclusive Fun
                       Fair.</a></h3>
                   <p class="ul-event-descr">Inclusive fair with sensory games, art & disability awareness booths</p>
                   <div class="ul-event-info">
                     <span class="ul-event-info-title">Venue</span>
                     <p class="ul-event-info-descr">Public Grounds, Hoshiarpur Road, Dasuya.</p>
                   </div>
-                  <a href="event-details-three.html" class="ul-btn"><i
+                  <a href="{{ route('event.detail', ['event_slug' => 'event-details-three']) }}" class="ul-btn"><i
                       class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                 </div>
               </div>
@@ -737,97 +745,97 @@
 
     <!-- TEAM SECTION START -->
     <!-- <section class="ul-team ul-section-spacing pt-0">
-                                  <div class="ul-container">
-                                      Heading
-                                      <div class="ul-section-heading justify-content-between">
-                                          <div class="left">
-                                              <span class="ul-section-sub-title">Our Team</span>
-                                              <h2 class="ul-section-title">Skilled Legal Professionals Dedicated to You</h2>
-                                          </div>
-                                          <div>
-                                              <a href="{{ route('team') }}" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
-                                          </div>
-                                      </div>
+                                            <div class="ul-container">
+                                                Heading
+                                                <div class="ul-section-heading justify-content-between">
+                                                    <div class="left">
+                                                        <span class="ul-section-sub-title">Our Team</span>
+                                                        <h2 class="ul-section-title">Skilled Legal Professionals Dedicated to You</h2>
+                                                    </div>
+                                                    <div>
+                                                        <a href="{{ route('team') }}" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
+                                                    </div>
+                                                </div>
 
-                                      <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
-                                          single member
-                                          <div class="col">
-                                              <div class="ul-team-member">
-                                                  <div class="ul-team-member-img">
-                                                      <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
-                                                      <div class="ul-team-member-socials">
-                                                          <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                      </div>
-                                                  </div>
-                                                  <div class="ul-team-member-info">
-                                                      <h3 class="ul-team-member-name"><a href="team-details.html">Aman Ahlawat</a></h3>
-                                                      <p class="ul-team-member-designation">General Secretary</p>
-                                                  </div>
-                                              </div>
-                                          </div>
+                                                <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
+                                                    single member
+                                                    <div class="col">
+                                                        <div class="ul-team-member">
+                                                            <div class="ul-team-member-img">
+                                                                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+                                                                <div class="ul-team-member-socials">
+                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ul-team-member-info">
+                                                                <h3 class="ul-team-member-name"><a href="team-details.html">Aman Ahlawat</a></h3>
+                                                                <p class="ul-team-member-designation">General Secretary</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                                          single member
-                                          <div class="col">
-                                              <div class="ul-team-member">
-                                                  <div class="ul-team-member-img">
-                                                      <img src="{{ asset('front') }}/assets/img/rahul-sharma.jpeg" alt="Team Member Image">
-                                                      <div class="ul-team-member-socials">
-                                                          <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                      </div>
-                                                  </div>
-                                                  <div class="ul-team-member-info">
-                                                      <h3 class="ul-team-member-name"><a href="team-details.html">Rahul-Sharma</a></h3>
-                                                      <p class="ul-team-member-designation">President</p>
-                                                  </div>
-                                              </div>
-                                          </div>
+                                                    single member
+                                                    <div class="col">
+                                                        <div class="ul-team-member">
+                                                            <div class="ul-team-member-img">
+                                                                <img src="{{ asset('front') }}/assets/img/rahul-sharma.jpeg" alt="Team Member Image">
+                                                                <div class="ul-team-member-socials">
+                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ul-team-member-info">
+                                                                <h3 class="ul-team-member-name"><a href="team-details.html">Rahul-Sharma</a></h3>
+                                                                <p class="ul-team-member-designation">President</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                                          single member
-                                          <div class="col">
-                                              <div class="ul-team-member">
-                                                  <div class="ul-team-member-img">
-                                                      <img src="{{ asset('front') }}/assets/img/member-3.jpg" alt="Team Member Image">
-                                                      <div class="ul-team-member-socials">
-                                                          <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                      </div>
-                                                  </div>
-                                                  <div class="ul-team-member-info">
-                                                      <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                                      <p class="ul-team-member-designation">Attorney</p>
-                                                  </div>
-                                              </div>
-                                          </div>
+                                                    single member
+                                                    <div class="col">
+                                                        <div class="ul-team-member">
+                                                            <div class="ul-team-member-img">
+                                                                <img src="{{ asset('front') }}/assets/img/member-3.jpg" alt="Team Member Image">
+                                                                <div class="ul-team-member-socials">
+                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ul-team-member-info">
+                                                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                                                <p class="ul-team-member-designation">Attorney</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                                          single member
-                                           <div class="col">
-                                              <div class="ul-team-member">
-                                                  <div class="ul-team-member-img">
-                                                      <img src="{{ asset('front') }}/assets/img/member-4.jpg" alt="Team Member Image">
-                                                      <div class="ul-team-member-socials">
-                                                          <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                      </div>
-                                                  </div>
-                                                  <div class="ul-team-member-info">
-                                                      <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                                      <p class="ul-team-member-designation">Attorney</p>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </section> -->
+                                                    single member
+                                                     <div class="col">
+                                                        <div class="ul-team-member">
+                                                            <div class="ul-team-member-img">
+                                                                <img src="{{ asset('front') }}/assets/img/member-4.jpg" alt="Team Member Image">
+                                                                <div class="ul-team-member-socials">
+                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ul-team-member-info">
+                                                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                                                <p class="ul-team-member-designation">Attorney</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section> -->
     <!-- TEAM SECTION END -->
 
     <!-- TESTIMONIAL SECTION START -->
@@ -1019,7 +1027,8 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.png"
+                        alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1038,10 +1047,11 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}" class="ul-blog-title">Breaking
-                  Barriers with Inclusive Education.</a>
-                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}" class="ul-blog-btn">Read More <span
-                    class="icon"><i class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}"
+                        class="ul-blog-title">Breaking
+                        Barriers with Inclusive Education.</a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}" class="ul-blog-btn">Read
+                        More <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1049,7 +1059,8 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.jpeg"
+                        alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1068,11 +1079,13 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}" class="ul-blog-title">How
-                  Therapy Transforms Young Lives
-                </a>
-                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}" class="ul-blog-btn">Read More
-                  <span class="icon"><i class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}"
+                        class="ul-blog-title">How
+                        Therapy Transforms Young Lives
+                      </a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}"
+                        class="ul-blog-btn">Read More
+                        <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1080,7 +1093,8 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.jpeg"
+                        alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1099,10 +1113,12 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                       <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-two']) }}" class="ul-blog-title">Empowering
-                  Parents of Special Needs Kids. </a>
-                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-two']) }}" class="ul-blog-btn">Read More
-                  <span class="icon"><i class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-two']) }}"
+                        class="ul-blog-title">Empowering
+                        Parents of Special Needs Kids. </a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-two']) }}"
+                        class="ul-blog-btn">Read More
+                        <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1110,7 +1126,8 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.jpeg"
+                        alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1129,19 +1146,22 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                     <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-three']) }}" class="ul-blog-title">Skill
-                  Training for a Dignified Tomorrow
-                </a>
-                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-three']) }}" class="ul-blog-btn">Read
-                  More <span class="icon"><i class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-three']) }}"
+                        class="ul-blog-title">Skill
+                        Training for a Dignified Tomorrow
+                      </a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-three']) }}"
+                        class="ul-blog-btn">Read
+                        More <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
 
- <!-- single blog -->
+                <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.jpeg"
+                        alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1160,17 +1180,20 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                    <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-four']) }}" class="ul-blog-title">Why
-                  Assistive Devices Truly Matter. </a>
-                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-four']) }}" class="ul-blog-btn">Read
-                  More <span class="icon"><i class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-four']) }}"
+                        class="ul-blog-title">Why
+                        Assistive Devices Truly Matter. </a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-four']) }}"
+                        class="ul-blog-btn">Read
+                        More <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
- <!-- single blog -->
+                <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.jpeg"
+                        alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1189,10 +1212,11 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                    <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-five']) }}"
-                  class="ul-blog-title">Creating Awareness, Changing Attitudes</a>
-                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-five']) }}" class="ul-blog-btn">Read
-                  More <span class="icon"><i class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-five']) }}"
+                        class="ul-blog-title">Creating Awareness, Changing Attitudes</a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-five']) }}"
+                        class="ul-blog-btn">Read
+                        More <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1228,7 +1252,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-3.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1244,7 +1268,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1252,7 +1276,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-6.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1260,7 +1284,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/sparashs.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 

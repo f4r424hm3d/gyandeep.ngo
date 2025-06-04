@@ -38,72 +38,27 @@
               <h3 class="ul-inner-sidebar-widget-title">Categories</h3>
               <div class="ul-inner-sidebar-widget-content">
                 <div class="ul-inner-sidebar-categories">
-                  <a href="donations.html">Charity <span>(08)</span></a>
-                  <a href="donations.html">Crowdfunding <span>(11)</span></a>
-                  <a href="donations.html">Industries <span>(18)</span></a>
-                  <a href="donations.html">Innovations <span>(11)</span></a>
-                  <a href="donations.html">Technology <span>(07)</span></a>
+                  <a href="{{ route('donation.details') }}">Charity <span>(08)</span></a>
+                  <a href="{{ route('donation.details') }}">Crowdfunding <span>(11)</span></a>
+                  <a href="{{ route('donation.details') }}">Industries <span>(18)</span></a>
+                  <a href="{{ route('donation.details') }}">Innovations <span>(11)</span></a>
+                  <a href="{{ route('donation.details') }}">Technology <span>(07)</span></a>
                 </div>
               </div>
             </div>
 
-            <!-- single widget / Recent Posts -->
-            <!-- <div class="ul-inner-sidebar-widget posts">
-                                  <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
-                                  <div class="ul-inner-sidebar-widget-content">
-                                      <div class="ul-inner-sidebar-posts">
-                                          single post
-                                          <div class="ul-inner-sidebar-post">
-                                              <div class="img">
-                                                  <img src="{{ asset('front') }}/assets/img/blog-2.jpeg" alt="Post Image">
-                                              </div>
-
-                                              <div class="txt">
-                                                  <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                  <span class="date"> <span>May 12, 2025</span></span>
-                                              </div>
-                                          </div>
-
-                                          single post
-                                          <div class="ul-inner-sidebar-post">
-                                              <div class="img">
-                                                  <img src="{{ asset('front') }}/assets/img/blog-1.jpg" alt="Post Image">
-                                              </div>
-
-                                              <div class="txt">
-                                                  <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                  <span class="date"> <span>May 12, 2025</span></span>
-                                              </div>
-                                          </div>
-
-                                          single post
-                                          <div class="ul-inner-sidebar-post">
-                                              <div class="img">
-                                                  <img src="{{ asset('front') }}/assets/img/blog-3.jpg" alt="Post Image">
-                                              </div>
-
-                                              <div class="txt">
-                                                  <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                  <span class="date"> <span>May 12, 2025</span></span>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div> -->
-
-            <!-- single widget / Tags -->
             <div class="ul-inner-sidebar-widget tags">
               <h3 class="ul-inner-sidebar-widget-title">Tag Cloud</h3>
               <div class="ul-inner-sidebar-widget-content">
                 <div class="ul-inner-sidebar-tags">
-                  <a href="donations.html">Crowdfunding</a>
-                  <a href="donations.html">Innovations</a>
-                  <a href="donations.html">Justice</a>
-                  <a href="donations.html">Lead</a>
-                  <a href="donations.html">Startup</a>
-                  <a href="donations.html">Technology</a>
-                  <a href="donations.html">Market</a>
-                  <a href="donations.html">Court</a>
+                  <a href="{{ route('donation.details') }}">Crowdfunding</a>
+                  <a href="{{ route('donation.details') }}">Innovations</a>
+                  <a href="{{ route('donation.details') }}">Justice</a>
+                  <a href="{{ route('donation.details') }}">Lead</a>
+                  <a href="{{ route('donation.details') }}">Startup</a>
+                  <a href="{{ route('donation.details') }}">Technology</a>
+                  <a href="{{ route('donation.details') }}">Market</a>
+                  <a href="{{ route('donation.details') }}">Court</a>
                 </div>
               </div>
             </div>
