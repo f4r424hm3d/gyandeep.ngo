@@ -121,7 +121,8 @@
                 </div>
               </div>
 
-              <a href="{{ route('mbbs.scholarship') }}">MBBS Scholorship</a>
+              <!-- <a href="{{ route('mbbs.scholarship') }}">MBBS Scholorship</a> -->
+              <a href="https://scholarship.gyandeep.ngo/">MBBS Scholorship</a>
               <a href="{{ route('blog') }}">Blog</a>
 
               <a href="{{ route('contact') }}">Contact</a>

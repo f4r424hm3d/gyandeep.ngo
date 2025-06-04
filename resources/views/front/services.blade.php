@@ -65,7 +65,7 @@
           <div class="col">
             <div class="ul-service ul-service--inner">
               <div class="ul-service-img">
-                <img src="{{ asset('front') }}/assets/img/Vocational-Skill-Trainings.jpeg" alt="Service Image">
+                <img src="{{ asset('front') }}/assets/img/skills.jpeg" alt="Service Image">
               </div>
               <div class="ul-service-txt">
                 <h3 class="ul-service-title"><a
@@ -86,7 +86,7 @@
           <div class="col">
             <div class="ul-service ul-service--inner">
               <div class="ul-service-img">
-                <img src="{{ asset('front') }}/assets/img/Parental-Counseling-Help.jpeg" alt="Service Image">
+                <img src="{{ asset('front') }}/assets/img/counselling.jpeg" alt="Service Image">
               </div>
               <div class="ul-service-txt">
                 <h3 class="ul-service-title"><a
@@ -107,7 +107,7 @@
           <div class="col">
             <div class="ul-service ul-service--inner">
               <div class="ul-service-img">
-                <img src="{{ asset('front') }}/assets/img/Assistive-Aid-Services.jpeg" class="aid-services"
+                <img src="{{ asset('front') }}/assets/img/aid.jpeg" class="aid-services"
                   alt="Service Image">
               </div>
               <div class="ul-service-txt">
@@ -129,7 +129,7 @@
           <div class="col">
             <div class="ul-service ul-service--inner">
               <div class="ul-service-img">
-                <img src="{{ asset('front') }}/assets/img/donation-7.jpeg" alt="Service Image">
+                <img src="{{ asset('front') }}/assets/img/deep-school.jpeg" alt="Service Image">
               </div>
               <div class="ul-service-txt">
                 <h3 class="ul-service-title"><a

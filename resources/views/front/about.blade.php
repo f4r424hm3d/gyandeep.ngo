@@ -149,7 +149,7 @@
           <div class="ul-about-tabs-wrapper ">
             <div id="tab-mission" class="ul-tab ul-about-tab active">
               <div class="ul-about-tab-img">
-                <img src="{{ asset('front') }}/assets/img/mission.jpeg" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/missions.jpeg" alt="Image">
               </div>
 
               <div class="ul-about-tab-txt">
@@ -201,7 +201,7 @@
             <!-- tab 03 /  -->
             <div id="tab-history" class="ul-tab ul-about-tab">
               <div class="ul-about-tab-img">
-                <img src="{{ asset('front') }}/assets/img/our-history.jpg" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/deep-school.jpeg" alt="Image">
               </div>
 
               <div class="ul-about-tab-txt">

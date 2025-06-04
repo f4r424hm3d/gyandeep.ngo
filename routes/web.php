@@ -87,6 +87,7 @@ Route::middleware([AdminLoggedOut::class])->group(function () {
     Route::get('/account/invalid_link', [AdminLogin::class, 'invalidLink']);
   });
 });
+
 /* ADMIN ROUTES AFTER LOGIN */
 Route::middleware([AdminLoggedIn::class])->group(function () {
   Route::get('/admin/logout/', function () {

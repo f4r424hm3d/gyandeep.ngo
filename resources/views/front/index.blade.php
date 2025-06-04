@@ -201,7 +201,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-2.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/therapy-stude.jpeg" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -343,7 +343,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-7.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/deep-school.jpeg" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -1019,7 +1019,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/digital.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1038,9 +1038,10 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                      <a href="blog-details.html" class="ul-blog-title">Digital Lab Launched for Special Youth</a>
-                      <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i
-                            class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}" class="ul-blog-title">Breaking
+                  Barriers with Inclusive Education.</a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}" class="ul-blog-btn">Read More <span
+                    class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1048,8 +1049,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/free-therapy.png"
-                        alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.jpeg" alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1068,9 +1068,11 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                      <a href="blog-details.html" class="ul-blog-title">Free Therapy via Hospital Partnership.</a>
-                      <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i
-                            class="flaticon-next"></i></span></a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}" class="ul-blog-title">How
+                  Therapy Transforms Young Lives
+                </a>
+                      <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}" class="ul-blog-btn">Read More
+                  <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1078,7 +1080,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/awarenesssd.jpeg" alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1097,9 +1099,10 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                      <a href="blog-details.html" class="ul-blog-title">Awareness Week Held in 12 Schools</a>
-                      <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i
-                            class="flaticon-next"></i></span></a>
+                       <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-two']) }}" class="ul-blog-title">Empowering
+                  Parents of Special Needs Kids. </a>
+                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-two']) }}" class="ul-blog-btn">Read More
+                  <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1107,8 +1110,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/vocational-jobs.jpeg"
-                        alt="Blog Image">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.jpeg" alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
                         <span class="txt">Dec</span>
@@ -1127,9 +1129,70 @@
                           <span class="text font-normal text-[14px] text-etGray">Donation</span>
                         </div>
                       </div>
-                      <a href="blog-details.html" class="ul-blog-title">75% Vocational Grads Get Jobs</a>
-                      <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i
-                            class="flaticon-next"></i></span></a>
+                     <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-three']) }}" class="ul-blog-title">Skill
+                  Training for a Dignified Tomorrow
+                </a>
+                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-three']) }}" class="ul-blog-btn">Read
+                  More <span class="icon"><i class="flaticon-next"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+
+ <!-- single blog -->
+                <div class="swiper-slide">
+                  <div class="ul-blog">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.jpeg" alt="Blog Image">
+                      <div class="date">
+                        <span class="number">15</span>
+                        <span class="txt">Dec</span>
+                      </div>
+                    </div>
+                    <div class="ul-blog-txt">
+                      <div class="ul-blog-infos">
+                        <!-- single info -->
+                        <div class="ul-blog-info">
+                          <span class="icon"><i class="flaticon-account"></i></span>
+                          <span class="text font-normal text-[14px] text-etGray">By Admin</span>
+                        </div>
+                        <!-- single info -->
+                        <div class="ul-blog-info">
+                          <span class="icon"><i class="flaticon-price-tag"></i></span>
+                          <span class="text font-normal text-[14px] text-etGray">Donation</span>
+                        </div>
+                      </div>
+                    <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-four']) }}" class="ul-blog-title">Why
+                  Assistive Devices Truly Matter. </a>
+                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-four']) }}" class="ul-blog-btn">Read
+                  More <span class="icon"><i class="flaticon-next"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+ <!-- single blog -->
+                <div class="swiper-slide">
+                  <div class="ul-blog">
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.jpeg" alt="Blog Image">
+                      <div class="date">
+                        <span class="number">15</span>
+                        <span class="txt">Dec</span>
+                      </div>
+                    </div>
+                    <div class="ul-blog-txt">
+                      <div class="ul-blog-infos">
+                        <!-- single info -->
+                        <div class="ul-blog-info">
+                          <span class="icon"><i class="flaticon-account"></i></span>
+                          <span class="text font-normal text-[14px] text-etGray">By Admin</span>
+                        </div>
+                        <!-- single info -->
+                        <div class="ul-blog-info">
+                          <span class="icon"><i class="flaticon-price-tag"></i></span>
+                          <span class="text font-normal text-[14px] text-etGray">Donation</span>
+                        </div>
+                      </div>
+                    <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-five']) }}"
+                  class="ul-blog-title">Creating Awareness, Changing Attitudes</a>
+                <a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-five']) }}" class="ul-blog-btn">Read
+                  More <span class="icon"><i class="flaticon-next"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -1149,7 +1212,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/donation-1.png" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1157,7 +1220,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/asaha.jpg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/asaha.jpg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1165,7 +1228,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-3.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/donation-3.jpeg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1173,7 +1236,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/mobilitys.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/mobilitys.jpeg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1181,7 +1244,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/donation-5.jpeg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1189,7 +1252,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/donation-6.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/donation-6.jpeg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1197,7 +1260,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/sparashs.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/sparashs.jpeg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+             <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
 
@@ -1205,7 +1268,7 @@
           <div class="ul-gallery-item swiper-slide">
             <img src="{{ asset('front') }}/assets/img/saksham-3.jpeg" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
-              <a href="assets/img/saksham-3.jpeg" data-fslightbox="gallery"><i class="flaticon-instagram"></i></a>
+              <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
           </div>
         </div>
