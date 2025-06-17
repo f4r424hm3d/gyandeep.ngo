@@ -13,6 +13,9 @@ class EventFc extends Controller
   }
   public function detail(Request $request, $event_slug)
   {
-    return view('front.' . $event_slug);
+    $question = generateMathQuestion();
+    session(['captcha_answer' => $question['answer']]);
+    $data = compact('question');
+    return view('front.' . $event_slug)->with($data);
   }
 }

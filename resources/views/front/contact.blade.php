@@ -101,7 +101,16 @@
                 @enderror
               </div>
             </div>
-            <div class="col-12">
+            <div class="col">
+              <div class="form-group">
+                <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile"
+                  value="{{ old('mobile') }}">
+                @error('mobile')
+                  <span class="text-danger">{{ $message }}</span>
+                @enderror
+              </div>
+            </div>
+            <div class="col">
               <div class="form-group">
                 <input type="text" name="subject" id="ul-contact-subject" placeholder="Subject"
                   value="{{ old('subject') }}">
@@ -118,12 +127,12 @@
                 @enderror
               </div>
             </div>
-<div class="col-12">
-<div class="form-group">
+            <div class="col-12">
+              <div class="form-group">
 
-</div>
+              </div>
               <div class="input-group mb-3">
-                <div class="input-group-text input-icon" ><span class="ti-captcha_answer">
+                <div class="input-group-text input-icon"><span class="ti-captcha_answer">
                     <label for="captcha_question">{{ $question['text'] }}</label>
                   </span></div>
                 <input type="number" name="captcha_answer" class="form-control" placeholder="Enter Captcha Value">

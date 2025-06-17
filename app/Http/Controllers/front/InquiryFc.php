@@ -144,6 +144,7 @@ class InquiryFc extends Controller
         }
       ],
       'email' => 'required|email|max:100|regex:/^[^<>]*$/',
+      'mobile' => 'required|numeric|digits_between:7,15',
       'subject' => 'nullable|string|max:150|regex:/^[^<>]*$/',
       'message' => 'nullable|string|max:1000|regex:/^[^<>]*$/',
       'source' => 'required|string|max:100|regex:/^[^<>]*$/',
@@ -154,7 +155,7 @@ class InquiryFc extends Controller
     $field->name = strip_tags($request->name);
     $field->email = strip_tags($request->email);
     // $field->country_code = $request->country_code;
-    // $field->mobile = $request->mobile;
+    $field->mobile = strip_tags($request->mobile);
     $field->subject = strip_tags($request->subject);
     $field->message = strip_tags($request->message);
     $field->source = strip_tags($request->source);
@@ -177,29 +178,29 @@ class InquiryFc extends Controller
     ];
     $dd = ['to' => $request['email'], 'to_name' => $request['name'], 'subject' => 'We have Received Your Request – Expect a Response Soon'];
 
-    // Mail::send(
-    //   'mails.inquiry-reply',
-    //   $emaildata,
-    //   function ($message) use ($dd) {
-    //     $message->to($dd['to'], $dd['to_name']);
-    //     $message->subject($dd['subject']);
-    //     $message->priority(1);
-    //   }
-    // );
+    Mail::send(
+      'mails.inquiry-reply',
+      $emaildata,
+      function ($message) use ($dd) {
+        $message->to($dd['to'], $dd['to_name']);
+        $message->subject($dd['subject']);
+        $message->priority(1);
+      }
+    );
 
     $dd2 = ['to' => TO_EMAIL, 'cc' => CC_EMAIL, 'to_name' => TO_NAME, 'cc_name' => CC_NAME, 'subject' => 'New Enquiry Alert – Team Attention Needed', 'bcc' => BCC_EMAIL, 'bcc_name' => BCC_NAME];
 
-    // Mail::send(
-    //   'mails.inquiry-mail-to-team',
-    //   $emaildata,
-    //   function ($message) use ($dd2) {
-    //     $message->to($dd2['to'], $dd2['to_name']);
-    //     $message->cc($dd2['cc'], $dd2['cc_name']);
-    //     $message->bcc($dd2['bcc'], $dd2['bcc_name']);
-    //     $message->subject($dd2['subject']);
-    //     $message->priority(1);
-    //   }
-    // );
+    Mail::send(
+      'mails.inquiry-mail-to-team',
+      $emaildata,
+      function ($message) use ($dd2) {
+        $message->to($dd2['to'], $dd2['to_name']);
+        $message->cc($dd2['cc'], $dd2['cc_name']);
+        $message->bcc($dd2['bcc'], $dd2['bcc_name']);
+        $message->subject($dd2['subject']);
+        $message->priority(1);
+      }
+    );
     return redirect('thank-you');
   }
 }
