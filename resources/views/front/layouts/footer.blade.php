@@ -1,5 +1,11 @@
 <!-- FOOTER SECTION START -->
 <footer class="ul-footer">
+       <div class="whats-float">
+  <a href="https://wa.me/+919289333536" class="open-button">
+    <!-- <span>Need any help<br><small>Chat with us</small></span> -->
+    <img  alt="whatsapp image" src="{{ asset('front/assets/img/whatsap-icons.png') }}"></a>
+</div>
+
   <div class="ul-footer-top">
     <div class="ul-footer-container">
       <div class="ul-footer-top-contact-infos">
@@ -130,19 +136,19 @@
             <a href="tel:98704 06867"><i class="flaticon-telephone-call"></i> 98704 06867</a>
           </div>
           <form action="#" class="ul-nwsltr-form">
-            <div class="top">
+            <!-- <div class="top">
               <input type="email" name="email" id="nwsltr-email" placeholder="Your Email Address"
                 class="ul-nwsltr-input">
               <button type="submit"><i class="flaticon-next"></i></button>
-            </div>
+            </div> -->
 
-            <div class="agreement">
+            <!-- <div class="agreement">
               <label for="nwsltr-agreement" class="ul-checkbox-wrapper">
                 <input type="checkbox" name="agreement" id="nwsltr-agreement" hidden>
                 <span class="ul-checkbox"><i class="flaticon-tick"></i></span>
                 <span class="ul-checkbox-txt">I agree with the <a href="#">Privacy Policy</a></span>
               </label>
-            </div>
+            </div> -->
           </form>
         </div>
       </div>
