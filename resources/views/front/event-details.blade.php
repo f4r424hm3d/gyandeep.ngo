@@ -123,39 +123,7 @@
 
             <h3 class="ul-event-inner-title">Contact us</h3>
             <p>Your email address will not be published. Required fields are marked *</p>
-            <form action="#" class="ul-contact-form ul-form">
-              <div class="row row-cols-2 row-cols-xxs-1 ul-bs-row">
-                <div class="col">
-                  <div class="form-group">
-                    <input type="text" name="name" id="ul-contact-name" placeholder="Your Name">
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="form-group">
-                    <input type="email" name="email" id="ul-contact-email" placeholder="Email Address">
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="form-group">
-                    <input type="tel" name="phone" id="ul-contact-phone" placeholder="Phone Number">
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="form-group">
-                    <input type="text" name="subject" id="ul-contact-subject" placeholder="Subject">
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea name="message" id="ul-contact-msg" placeholder="Type your message"></textarea>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Get in
-                    Touch</button>
-                </div>
-              </div>
-            </form>
+            @include('front.forms.event-inquiry-form')
           </div>
         </div>
       </div>

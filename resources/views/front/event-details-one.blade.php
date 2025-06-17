@@ -49,47 +49,47 @@
 
             <!-- single widget / Recent Posts -->
             <!-- <div class="ul-inner-sidebar-widget posts">
-                                              <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
-                                              <div class="ul-inner-sidebar-widget-content">
-                                                  <div class="ul-inner-sidebar-posts">
-                                                      single post
-                                                      <div class="ul-inner-sidebar-post">
-                                                          <div class="img">
-                                                              <img src="{{ asset('front') }}/assets/img/blog-2.jpeg" alt="Post Image">
-                                                          </div>
+                                                    <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
+                                                    <div class="ul-inner-sidebar-widget-content">
+                                                        <div class="ul-inner-sidebar-posts">
+                                                            single post
+                                                            <div class="ul-inner-sidebar-post">
+                                                                <div class="img">
+                                                                    <img src="{{ asset('front') }}/assets/img/blog-2.jpeg" alt="Post Image">
+                                                                </div>
 
-                                                          <div class="txt">
-                                                              <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                              <span class="date"> <span>May 12, 2025</span></span>
-                                                          </div>
-                                                      </div>
+                                                                <div class="txt">
+                                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                                    <span class="date"> <span>May 12, 2025</span></span>
+                                                                </div>
+                                                            </div>
 
-                                                      single post
-                                                      <div class="ul-inner-sidebar-post">
-                                                          <div class="img">
-                                                              <img src="{{ asset('front') }}/assets/img/blog-1.jpg" alt="Post Image">
-                                                          </div>
+                                                            single post
+                                                            <div class="ul-inner-sidebar-post">
+                                                                <div class="img">
+                                                                    <img src="{{ asset('front') }}/assets/img/blog-1.jpg" alt="Post Image">
+                                                                </div>
 
-                                                          <div class="txt">
-                                                              <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                              <span class="date"> <span>May 12, 2025</span></span>
-                                                          </div>
-                                                      </div>
+                                                                <div class="txt">
+                                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                                    <span class="date"> <span>May 12, 2025</span></span>
+                                                                </div>
+                                                            </div>
 
-                                                      single post
-                                                      <div class="ul-inner-sidebar-post">
-                                                          <div class="img">
-                                                              <img src="{{ asset('front') }}/assets/img/blog-3.jpg" alt="Post Image">
-                                                          </div>
+                                                            single post
+                                                            <div class="ul-inner-sidebar-post">
+                                                                <div class="img">
+                                                                    <img src="{{ asset('front') }}/assets/img/blog-3.jpg" alt="Post Image">
+                                                                </div>
 
-                                                          <div class="txt">
-                                                              <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                              <span class="date"> <span>May 12, 2025</span></span>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div> -->
+                                                                <div class="txt">
+                                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                                    <span class="date"> <span>May 12, 2025</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
 
             <!-- single widget / Tags -->
             <div class="ul-inner-sidebar-widget tags">
@@ -166,126 +166,7 @@
 
             <h3 class="ul-event-inner-title">Contact us</h3>
             <p>Your email address will not be published. Required fields are marked *</p>
-            <form class="row" method="POST" action="{{ route('mbbs.scholarship.en') }}"
-              enctype="multipart/form-data">
-              @csrf
-              <input type="hidden" name="source" value="MBBS Scholarship">
-              <input type="hidden" name="source_path" value="{{ url()->previous() }}">
-              <div class="col-md-6 mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" name="name"
-                  placeholder="Enter your full name" value="{{ old('name') }}">
-                @error('name')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="email" class="form-label">Email ID</label>
-                <input type="email" class="form-control" id="email" name="email"
-                  placeholder="Enter your email" value="{{ old('email') }}">
-                @error('email')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="mobile" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="mobile" name="mobile"
-                  placeholder="Enter your phone number" value="{{ old('mobile') }}">
-                @error('mobile')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="nationality" class="form-label">Nationality</label>
-                <input type="text" class="form-control" id="nationality" name="nationality"
-                  placeholder="Enter your nationality" value="{{ old('nationality') }}">
-                @error('nationality')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="city" class="form-label">City & Country</label>
-                <input type="text" class="form-control" id="city" name="city"
-                  placeholder="Enter your city and country" value="{{ old('city') }}">
-                @error('city')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="have_passport" class="form-label">Do you have a valid passport?</label>
-                <select class="form-select" id="have_passport" name="have_passport">
-                  <option value="">Choose...</option>
-                  <option value="1" {{ old('have_passport') == '1' ? 'selected' : '' }}>Yes</option>
-                  <option value="0" {{ old('have_passport') == '0' ? 'selected' : '' }}>No</option>
-                </select>
-                @error('have_passport')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="neet_qualified" class="form-label">NEET Qualified?</label>
-                <select class="form-select" id="neet_qualified" name="neet_qualified">
-                  <option value="">Choose...</option>
-                  <option value="1" {{ old('neet_qualified') == '1' ? 'selected' : '' }}>Yes</option>
-                  <option value="0" {{ old('neet_qualified') == '0' ? 'selected' : '' }}>No</option>
-                </select>
-                @error('neet_qualified')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="marksheet" class="form-label">Upload 10th & 12th Marksheet</label>
-                <input class="form-control" type="file" id="marksheet" name="marksheet">
-                @error('marksheet')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="passportCopy" class="form-label">Upload Passport Copy (if available)</label>
-                <input class="form-control" type="file" id="passportCopy" name="passport">
-                @error('passport')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="incomeCert" class="form-label">Upload Income Certificate (optional)</label>
-                <input class="form-control" type="file" id="incomeCert" name="income_certificate">
-                @error('income_certificate')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-
-              <div class="col-md-12 mb-3 mx-auto">
-                <label for="message" class="form-label">Message / Queries</label>
-                <textarea class="form-control" id="message" name="message" rows="4"
-                  placeholder="Enter any questions or notes...">{{ old('message') }}</textarea>
-                @error('message')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-              <div class="form-group">
-
-                <div class="input-group mb-3">
-                  <div class="input-group-text input-icon"><span class="ti-captcha_answer">
-                      <label for="captcha_question">{{ $question['text'] }}</label>
-                    </span></div>
-                  <input type="number" name="captcha_answer" class="form-control" placeholder="Enter Captcha Value">
-                </div>
-                @error('captcha_answer')
-                  <span class="text-danger">{{ $message }}</span>
-                @enderror
-              </div>
-              <div class="col-12 mb-3 text-center">
-                <button type="submit" class="btn btn-primary">Get in Touch</button>
-              </div>
-
-            </form>
+            @include('front.forms.event-inquiry-form')
           </div>
         </div>
       </div>

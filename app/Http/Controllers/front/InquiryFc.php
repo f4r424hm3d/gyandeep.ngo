@@ -178,15 +178,15 @@ class InquiryFc extends Controller
     ];
     $dd = ['to' => $request['email'], 'to_name' => $request['name'], 'subject' => 'We have Received Your Request – Expect a Response Soon'];
 
-    Mail::send(
-      'mails.inquiry-reply',
-      $emaildata,
-      function ($message) use ($dd) {
-        $message->to($dd['to'], $dd['to_name']);
-        $message->subject($dd['subject']);
-        $message->priority(1);
-      }
-    );
+    // Mail::send(
+    //   'mails.inquiry-reply',
+    //   $emaildata,
+    //   function ($message) use ($dd) {
+    //     $message->to($dd['to'], $dd['to_name']);
+    //     $message->subject($dd['subject']);
+    //     $message->priority(1);
+    //   }
+    // );
 
     $dd2 = ['to' => TO_EMAIL, 'cc' => CC_EMAIL, 'to_name' => TO_NAME, 'cc_name' => CC_NAME, 'subject' => 'New Enquiry Alert – Team Attention Needed', 'bcc' => BCC_EMAIL, 'bcc_name' => BCC_NAME];
 
