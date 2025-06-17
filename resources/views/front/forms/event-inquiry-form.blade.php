@@ -60,7 +60,7 @@
     </div>
     <div class="col-12 text-center mt-2">
       <button class="ul-btn" type="submit"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i>
-        Submit</button>
+        Get in Touch</button>
     </div>
   </div>
 </form>
