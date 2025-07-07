@@ -53,7 +53,7 @@
     <div class="ul-sidebar-header">
       <div class="ul-sidebar-header-logo">
         <a href="{{ route('home') }}">
-          <img src="{{ asset('front') }}/assets/img/updated-logo.png" alt="logo" class="logo">
+          <img src="{{ asset('front') }}/assets/img/updated-logo.webp" alt="logo" class="logo">
         </a>
       </div>
       <!-- sidebar closer -->
@@ -95,7 +95,7 @@
       <div class="ul-header-bottom-wrapper ul-header-container">
         <div class="logo-container">
           <a href="{{ route('home') }}" class="d-inline-block">
-            <h5 class="main-logo"> <img src="{{ asset('front') }}/assets/img/plant.png" alt=""></h5>
+            <h5 class="main-logo"> <img src="{{ asset('front') }}/assets/img/plant.webp" alt=""></h5>
           </a>
         </div>
 

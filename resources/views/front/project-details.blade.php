@@ -23,27 +23,27 @@
           <!-- single slide -->
           <div class="swiper-slide">
             <div>
-              <img src="{{ asset('front') }}/assets/img/Therapy-Sessions.png" alt="Image">
+              <img src="{{ asset('front') }}/assets/img/Therapy-Sessions.webp" alt="Image">
             </div>
           </div>
           <!-- single slide -->
           <!-- <div class="swiper-slide">
-                            <div>
-                                <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
-                            </div>
-                        </div> -->
+                              <div>
+                                  <img src="{{ asset('front') }}/assets/img/project-details-img-1.webp" alt="Image">
+                              </div>
+                          </div> -->
           <!-- single slide -->
           <!-- <div class="swiper-slide">
-                            <div>
-                                <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
-                            </div>
-                        </div> -->
+                              <div>
+                                  <img src="{{ asset('front') }}/assets/img/project-details-img-1.webp" alt="Image">
+                              </div>
+                          </div> -->
         </div>
 
         <!-- <div class="ul-project-details-slider-nav ul-slider-nav">
-                        <button class="prev"><i class="flaticon-back"></i></button>
-                        <button class="next"><i class="flaticon-next"></i></button>
-                    </div> -->
+                          <button class="prev"><i class="flaticon-back"></i></button>
+                          <button class="next"><i class="flaticon-next"></i></button>
+                      </div> -->
       </div>
 
       <div class="row gx-5 gy-4 flex-column-reverse flex-lg-row">

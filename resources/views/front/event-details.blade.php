@@ -69,7 +69,7 @@
         <div class="col-lg-8">
           <div class="ul-event-details ul-donation-details">
             <div class="ul-event-details-img">
-              <img src="{{ asset('front') }}/assets/img/sparsh-2.jpg" alt="Image">
+              <img src="{{ asset('front') }}/assets/img/sparsh-2.webp" alt="Image">
             </div>
             <div class="ul-event-details-infos">
               <!-- single info -->

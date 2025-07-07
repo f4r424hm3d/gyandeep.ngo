@@ -49,47 +49,47 @@
 
             <!-- single widget / Recent Posts -->
             <!-- <div class="ul-inner-sidebar-widget posts">
-                                    <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
-                                    <div class="ul-inner-sidebar-widget-content">
-                                        <div class="ul-inner-sidebar-posts">
-                                            single post
-                                            <div class="ul-inner-sidebar-post">
-                                                <div class="img">
-                                                    <img src="{{ asset('front') }}/assets/img/blog-2.jpeg" alt="Post Image">
-                                                </div>
+                                      <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
+                                      <div class="ul-inner-sidebar-widget-content">
+                                          <div class="ul-inner-sidebar-posts">
+                                              single post
+                                              <div class="ul-inner-sidebar-post">
+                                                  <div class="img">
+                                                      <img src="{{ asset('front') }}/assets/img/blog-2.webp" alt="Post Image">
+                                                  </div>
 
-                                                <div class="txt">
-                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                    <span class="date"> <span>May 12, 2025</span></span>
-                                                </div>
-                                            </div>
+                                                  <div class="txt">
+                                                      <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                      <span class="date"> <span>May 12, 2025</span></span>
+                                                  </div>
+                                              </div>
 
-                                            single post
-                                            <div class="ul-inner-sidebar-post">
-                                                <div class="img">
-                                                    <img src="{{ asset('front') }}/assets/img/blog-1.jpg" alt="Post Image">
-                                                </div>
+                                              single post
+                                              <div class="ul-inner-sidebar-post">
+                                                  <div class="img">
+                                                      <img src="{{ asset('front') }}/assets/img/blog-1.webp" alt="Post Image">
+                                                  </div>
 
-                                                <div class="txt">
-                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                    <span class="date"> <span>May 12, 2025</span></span>
-                                                </div>
-                                            </div>
+                                                  <div class="txt">
+                                                      <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                      <span class="date"> <span>May 12, 2025</span></span>
+                                                  </div>
+                                              </div>
 
-                                            single post
-                                            <div class="ul-inner-sidebar-post">
-                                                <div class="img">
-                                                    <img src="{{ asset('front') }}/assets/img/blog-3.jpg" alt="Post Image">
-                                                </div>
+                                              single post
+                                              <div class="ul-inner-sidebar-post">
+                                                  <div class="img">
+                                                      <img src="{{ asset('front') }}/assets/img/blog-3.webp" alt="Post Image">
+                                                  </div>
 
-                                                <div class="txt">
-                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                    <span class="date"> <span>May 12, 2025</span></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                                  <div class="txt">
+                                                      <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                      <span class="date"> <span>May 12, 2025</span></span>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div> -->
 
             <!-- single widget / Tags -->
             <div class="ul-inner-sidebar-widget tags">
@@ -113,7 +113,7 @@
         <!-- donation details content -->
         <div class="col-lg-8">
           <div class="ul-donation-details">
-            <div class="ul-donation-details-img"><img src="{{ asset('front') }}/assets/img/stat-bg.jpeg" alt="Image">
+            <div class="ul-donation-details-img"><img src="{{ asset('front') }}/assets/img/stat-bg.webp" alt="Image">
             </div>
             <h2 class="ul-donation-details-raised">₹69,000 <span class="target">of ₹100,000 raised</span></h2>
             <div class="ul-donation-progress ul-donation-progress-2">
@@ -263,9 +263,9 @@
                   <li>Care Beyond Clinics</li>
                 </ul>
                 <!-- <div class="ul-donation-details-summary-imgs">
-                                            <img src="{{ asset('front') }}/assets/img/donation-details-inner-1.jpg" alt="image">
-                                            <img src="{{ asset('front') }}/assets/img/donation-details-inner-2.jpg" alt="image">
-                                        </div> -->
+                                              <img src="{{ asset('front') }}/assets/img/donation-details-inner-1.webp" alt="image">
+                                              <img src="{{ asset('front') }}/assets/img/donation-details-inner-2.webp" alt="image">
+                                          </div> -->
                 <p>Your donation fuels everything—from therapy sessions and hearing aids to digital literacy and
                   emotional wellness. Each contribution helps break the silence of isolation, spark confidence, and
                   nurture independence. You’re not just giving support—you’re inspiring potential and shaping futures

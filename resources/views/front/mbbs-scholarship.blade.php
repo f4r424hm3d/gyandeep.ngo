@@ -23,27 +23,27 @@
           <!-- single slide -->
           <div class="swiper-slide">
             <div>
-              <img src="{{ asset('front') }}/assets/img/scholorship.jpg" alt="Image">
+              <img src="{{ asset('front') }}/assets/img/scholorship.webp" alt="Image">
             </div>
           </div>
           <!-- single slide -->
           <!-- <div class="swiper-slide">
-                                                                                                                            <div>
-                                                                                                                                <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
-                                                                                                                            </div>
-                                                                                                                        </div> -->
+                                                                                                                                <div>
+                                                                                                                                    <img src="{{ asset('front') }}/assets/img/project-details-img-1.webp" alt="Image">
+                                                                                                                                </div>
+                                                                                                                            </div> -->
           <!-- single slide -->
           <!-- <div class="swiper-slide">
-                                                                                                                            <div>
-                                                                                                                                <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
+                                                                                                                                <div>
+                                                                                                                                    <img src="{{ asset('front') }}/assets/img/project-details-img-1.webp" alt="Image">
+                                                                                                                                </div>
                                                                                                                             </div>
-                                                                                                                        </div>
-                                                                                                                    </div> -->
+                                                                                                                        </div> -->
 
           <!-- <div class="ul-project-details-slider-nav ul-slider-nav">
-                                                                                                                        <button class="prev"><i class="flaticon-back"></i></button>
-                                                                                                                        <button class="next"><i class="flaticon-next"></i></button>
-                                                                                                                    </div> -->
+                                                                                                                            <button class="prev"><i class="flaticon-back"></i></button>
+                                                                                                                            <button class="next"><i class="flaticon-next"></i></button>
+                                                                                                                        </div> -->
         </div>
 
         <div class="row gx-5 gy-4 mt-5 flex-column-reverse flex-lg-row">
@@ -63,7 +63,7 @@
                   <div class="row ">
                     <div class="col-lg-6">
                       <div class="ul-contact-imgd">
-                        <img src="{{ asset('front') }}/assets/img/Scholarship-Benefits.jpeg" alt="Image">
+                        <img src="{{ asset('front') }}/assets/img/Scholarship-Benefits.webp" alt="Image">
                       </div>
                     </div>
 
@@ -155,7 +155,7 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="ul-contact-imgd">
-                        <img src="{{ asset('front') }}/assets/img/documentation-process.jpeg" alt="Image">
+                        <img src="{{ asset('front') }}/assets/img/documentation-process.webp" alt="Image">
                       </div>
                     </div>
 
@@ -201,7 +201,7 @@
 
                     <div class="col-lg-6">
                       <div class="ul-contact-imgd">
-                        <img src="{{ asset('front') }}/assets/img/Embassy-Mediation.png" alt="Image">
+                        <img src="{{ asset('front') }}/assets/img/Embassy-Mediation.webp" alt="Image">
                       </div>
                     </div>
                     <div class="col-lg-6">
@@ -334,7 +334,7 @@
                   <div class="form-group">
 
                     <div class="input-group mb-3">
-                      <div class="input-group-text input-icon" ><span class="ti-captcha_answer">
+                      <div class="input-group-text input-icon"><span class="ti-captcha_answer">
                           <label for="captcha_question">{{ $question['text'] }}</label>
                         </span></div>
                       <input type="number" name="captcha_answer" class="form-control"
@@ -358,8 +358,8 @@
                 <div class="row row-cols-md-2 row-cols-1 gy-4 align-items-center">
                   <div class="col">
                     <div class="ul-why-join-img">
-                      <!-- <img src="{{ asset('front') }}/assets/img/why-join.jpg" alt="Image"> -->
-                      <img src="{{ asset('front') }}/assets/img/faq-details.jpeg" alt="Image">
+                      <!-- <img src="{{ asset('front') }}/assets/img/why-join.webp" alt="Image"> -->
+                      <img src="{{ asset('front') }}/assets/img/faq-details.webp" alt="Image">
                     </div>
                   </div>
 

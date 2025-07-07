@@ -25,7 +25,7 @@
           <div class="col">
             <div class="ul-team-member">
               <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+                <img src="{{ asset('front') }}/assets/img/aman-mam.webp" alt="Team Member Image">
                 <div class="ul-team-member-socials">
                   <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
                   <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
@@ -44,7 +44,7 @@
           <div class="col">
             <div class="ul-team-member">
               <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/rahul-sharma.jpeg" alt="Team Member Image">
+                <img src="{{ asset('front') }}/assets/img/rahul-sharma.webp" alt="Team Member Image">
                 <div class="ul-team-member-socials">
                   <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
                   <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
@@ -61,117 +61,117 @@
 
           <!-- single member -->
           <!-- <div class="col">
-                                <div class="ul-team-member">
-                                    <div class="ul-team-member-img">
-                                        <img src="{{ asset('front') }}/assets/img/member-3.jpg" alt="Team Member Image">
-                                        <div class="ul-team-member-socials">
-                                            <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="ul-team-member-info">
-                                        <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                        <p class="ul-team-member-designation">Attorney</p>
-                                    </div>
-                                </div>
-                            </div> -->
+                                  <div class="ul-team-member">
+                                      <div class="ul-team-member-img">
+                                          <img src="{{ asset('front') }}/assets/img/member-3.webp" alt="Team Member Image">
+                                          <div class="ul-team-member-socials">
+                                              <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                              <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                              <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                              <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                          </div>
+                                      </div>
+                                      <div class="ul-team-member-info">
+                                          <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                          <p class="ul-team-member-designation">Attorney</p>
+                                      </div>
+                                  </div>
+                              </div> -->
 
           <!-- single member -->
           <!-- <div class="col">
-                                <div class="ul-team-member">
-                                    <div class="ul-team-member-img">
-                                        <img src="{{ asset('front') }}/assets/img/member-4.jpg" alt="Team Member Image">
-                                        <div class="ul-team-member-socials">
-                                            <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="ul-team-member-info">
-                                        <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                        <p class="ul-team-member-designation">Attorney</p>
-                                    </div>
-                                </div>
-                            </div> -->
+                                  <div class="ul-team-member">
+                                      <div class="ul-team-member-img">
+                                          <img src="{{ asset('front') }}/assets/img/member-4.webp" alt="Team Member Image">
+                                          <div class="ul-team-member-socials">
+                                              <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                              <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                              <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                              <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                          </div>
+                                      </div>
+                                      <div class="ul-team-member-info">
+                                          <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                          <p class="ul-team-member-designation">Attorney</p>
+                                      </div>
+                                  </div>
+                              </div> -->
 
           <!-- single member -->
           <!-- <div class="col">
-                                <div class="ul-team-member">
-                                    <div class="ul-team-member-img">
-                                        <img src="{{ asset('front') }}/assets/img/member-5.jpg" alt="Team Member Image">
-                                        <div class="ul-team-member-socials">
-                                            <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="ul-team-member-info">
-                                        <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                        <p class="ul-team-member-designation">Attorney</p>
-                                    </div>
-                                </div>
-                            </div> -->
+                                  <div class="ul-team-member">
+                                      <div class="ul-team-member-img">
+                                          <img src="{{ asset('front') }}/assets/img/member-5.webp" alt="Team Member Image">
+                                          <div class="ul-team-member-socials">
+                                              <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                              <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                              <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                              <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                          </div>
+                                      </div>
+                                      <div class="ul-team-member-info">
+                                          <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                          <p class="ul-team-member-designation">Attorney</p>
+                                      </div>
+                                  </div>
+                              </div> -->
 
           <!-- single member -->
           <!-- <div class="col">
-                                <div class="ul-team-member">
-                                    <div class="ul-team-member-img">
-                                        <img src="{{ asset('front') }}/assets/img/member-6.jpg" alt="Team Member Image">
-                                        <div class="ul-team-member-socials">
-                                            <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="ul-team-member-info">
-                                        <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                        <p class="ul-team-member-designation">Attorney</p>
-                                    </div>
-                                </div>
-                            </div> -->
+                                  <div class="ul-team-member">
+                                      <div class="ul-team-member-img">
+                                          <img src="{{ asset('front') }}/assets/img/member-6.webp" alt="Team Member Image">
+                                          <div class="ul-team-member-socials">
+                                              <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                              <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                              <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                              <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                          </div>
+                                      </div>
+                                      <div class="ul-team-member-info">
+                                          <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                          <p class="ul-team-member-designation">Attorney</p>
+                                      </div>
+                                  </div>
+                              </div> -->
 
           <!-- single member -->
           <!-- <div class="col">
-                                <div class="ul-team-member">
-                                    <div class="ul-team-member-img">
-                                        <img src="{{ asset('front') }}/assets/img/member-7.jpg" alt="Team Member Image">
-                                        <div class="ul-team-member-socials">
-                                            <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="ul-team-member-info">
-                                        <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                        <p class="ul-team-member-designation">Attorney</p>
-                                    </div>
-                                </div>
-                            </div> -->
+                                  <div class="ul-team-member">
+                                      <div class="ul-team-member-img">
+                                          <img src="{{ asset('front') }}/assets/img/member-7.webp" alt="Team Member Image">
+                                          <div class="ul-team-member-socials">
+                                              <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                              <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                              <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                              <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                          </div>
+                                      </div>
+                                      <div class="ul-team-member-info">
+                                          <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                          <p class="ul-team-member-designation">Attorney</p>
+                                      </div>
+                                  </div>
+                              </div> -->
 
           <!-- single member -->
           <!-- <div class="col">
-                                <div class="ul-team-member">
-                                    <div class="ul-team-member-img">
-                                        <img src="{{ asset('front') }}/assets/img/member-8.jpg" alt="Team Member Image">
-                                        <div class="ul-team-member-socials">
-                                            <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="ul-team-member-info">
-                                        <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                        <p class="ul-team-member-designation">Attorney</p>
-                                    </div>
-                                </div>
-                            </div> -->
+                                  <div class="ul-team-member">
+                                      <div class="ul-team-member-img">
+                                          <img src="{{ asset('front') }}/assets/img/member-8.webp" alt="Team Member Image">
+                                          <div class="ul-team-member-socials">
+                                              <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                              <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                              <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                              <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                          </div>
+                                      </div>
+                                      <div class="ul-team-member-info">
+                                          <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                          <p class="ul-team-member-designation">Attorney</p>
+                                      </div>
+                                  </div>
+                              </div> -->
         </div>
       </div>
     </section>

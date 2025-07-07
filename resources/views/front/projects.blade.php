@@ -24,7 +24,7 @@
           <div class="col-lg-8 col-md-6 col-10 col-xxs-12">
             <div class="ul-project ">
               <div class="ul-project-img">
-                <img src="{{ asset('front') }}/assets/img/abc.png" alt="Project Image">
+                <img src="{{ asset('front') }}/assets/img/abc.webp" alt="Project Image">
               </div>
               <div class="ul-project-txt">
                 <div>
@@ -43,7 +43,7 @@
           <div class="col-lg-4 col-md-6 col-10 col-xxs-12">
             <div class="ul-project ul-project--sm">
               <div class="ul-project-img">
-                <img src="{{ asset('front') }}/assets/img/vocationalss.jpeg" alt="Project Image">
+                <img src="{{ asset('front') }}/assets/img/vocationalss.webp" alt="Project Image">
               </div>
               <div class="ul-project-txt">
                 <div>
@@ -63,7 +63,7 @@
           <div class="col-lg-4 col-md-6 col-10 col-xxs-12">
             <div class="ul-project ul-project--sm">
               <div class="ul-project-img">
-                <img src="{{ asset('front') }}/assets/img/fab-program.jpeg" alt="Project Image">
+                <img src="{{ asset('front') }}/assets/img/fab-program.webp" alt="Project Image">
               </div>
               <div class="ul-project-txt">
                 <div>
@@ -82,7 +82,7 @@
           <div class="col-lg-8 col-md-6 col-10 col-xxs-12">
             <div class="ul-project ">
               <div class="ul-project-img">
-                <img src="{{ asset('front') }}/assets/img/saksham-3.jpeg" alt="Project Image">
+                <img src="{{ asset('front') }}/assets/img/saksham-3.webp" alt="Project Image">
               </div>
               <div class="ul-project-txt">
                 <div>

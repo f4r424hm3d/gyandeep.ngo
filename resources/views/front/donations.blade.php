@@ -26,7 +26,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-1.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -57,7 +57,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-2.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-2.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -87,7 +87,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-3.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-3.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -117,7 +117,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-4.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-4.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -148,7 +148,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-1.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -179,7 +179,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-1.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -209,7 +209,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-2.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-2.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">
@@ -239,7 +239,7 @@
           <div class="col">
             <div class="ul-donation ul-donation--inner h-100">
               <div class="ul-donation-img">
-                <img src="{{ asset('front') }}/assets/img/donation-3.jpg" alt="donation Image">
+                <img src="{{ asset('front') }}/assets/img/donation-3.webp" alt="donation Image">
                 <span class="tag">Foods</span>
               </div>
               <div class="ul-donation-txt">

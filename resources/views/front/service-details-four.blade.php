@@ -50,7 +50,7 @@
           </div>
 
           <div class="ul-service-details-video-cover">
-            <img src="{{ asset('front') }}/assets/img/donoting.jpeg" alt="Video Cover">
+            <img src="{{ asset('front') }}/assets/img/donoting.webp" alt="Video Cover">
             <!-- <a href="https://youtu.be/C2FFe5FiAqc?si=8p0Skg8lyxgHQCpg" data-fslightbox="Video">Play Video</a> -->
           </div>
 

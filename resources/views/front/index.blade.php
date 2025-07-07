@@ -22,9 +22,9 @@
 
                   <div class="ul-banner-stat">
                     <div class="imgs">
-                      <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Person">
-                      <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Person">
-                      <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Person">
+                      <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Person">
+                      <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Person">
+                      <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Person">
                       <span class="number">2.M</span>
                     </div>
                     <span class="txt">Active donors</span>
@@ -32,7 +32,7 @@
                 </div>
               </div>
 
-              <img src="{{ asset('front') }}/assets/img/vector-img.png" alt="Vector" class="ul-banner-txt-vector">
+              <img src="{{ asset('front') }}/assets/img/vector-img.webp" alt="Vector" class="ul-banner-txt-vector">
             </div>
           </div>
 
@@ -40,15 +40,15 @@
           <div class="col align-self-start">
             <div class="ul-banner-img">
               <div class="img-wrapper">
-                <img src="{{ asset('front') }}/assets/img/gn-front.jpeg" alt="Banner Image">
+                <img src="{{ asset('front') }}/assets/img/gn-front.webp" alt="Banner Image">
                 <!-- <div class="ul-banner-video-btn">
-                                                                    <a href=""></a>
-                                                                </div> -->
+                                                                        <a href=""></a>
+                                                                    </div> -->
               </div>
               <div class="ul-banner-img-vectors">
-                <img src="{{ asset('front') }}/assets/img/banner-img-vector-1.png" alt="vector"
+                <img src="{{ asset('front') }}/assets/img/banner-img-vector-1.webp" alt="vector"
                   class="vector-1 wow animate__fadeInRight">
-                <img src="{{ asset('front') }}/assets/img/banner-img-vector-2.png" alt="vector"
+                <img src="{{ asset('front') }}/assets/img/banner-img-vector-2.webp" alt="vector"
                   class="vector-2 wow animate__fadeInDown">
               </div>
             </div>
@@ -65,7 +65,7 @@
           <div class="col">
             <div class="ul-about-imgs">
               <div class="img-wrapper">
-                <img src="{{ asset('front') }}/assets/img/about-img.png" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/about-img.webp" alt="Image">
               </div>
               <div class="ul-about-imgs-vectors">
                 <img src="{{ asset('front') }}/assets/img/about-img-vector-1.svg" alt="Image" class="vector-1">
@@ -84,15 +84,16 @@
                 empowering disabled children through education, therapy, and skill development.</p>
 
               <ul class="details-ngo">
-                <li> <img src="{{ asset('front') }}/assets/img/placeholder.png" alt=""> <b>Location</b>: Dasuya,
+                <li> <img src="{{ asset('front') }}/assets/img/placeholder.webp" alt=""> <b>Location</b>: Dasuya,
                   Punjab</li>
-                <li><img src="{{ asset('front') }}/assets/img/online-registration.png" alt=""> <b>Reg. No.</b>:
+                <li><img src="{{ asset('front') }}/assets/img/online-registration.webp" alt=""> <b>Reg. No.</b>:
                   92/2014-15</li>
-                <li><img src="{{ asset('front') }}/assets/img/home.png" alt=""> <b>Address</b>: H.No. 538/1, Ward
+                <li><img src="{{ asset('front') }}/assets/img/home.webp" alt=""> <b>Address</b>: H.No. 538/1,
+                  Ward
                   7, Kirpal Colony,
                   Dasuya,
                   District Hoshiarpur, Punjab – 144205</li>
-                <li><img src="{{ asset('front') }}/assets/img/phone-call.png" alt=""><b>Contact No</b> +91
+                <li><img src="{{ asset('front') }}/assets/img/phone-call.webp" alt=""><b>Contact No</b> +91
                   9870406867</li>
               </ul>
 
@@ -108,7 +109,7 @@
                   </div>
 
                 </div>
-                <!-- <div class="block-right"><img src="{{ asset('front') }}/assets/img/about-block-img.jpg" alt="Image"></div> -->
+                <!-- <div class="block-right"><img src="{{ asset('front') }}/assets/img/about-block-img.webp" alt="Image"></div> -->
               </div>
 
               <div class="ul-about-bottom">
@@ -131,7 +132,7 @@
 
       <!-- vector -->
       <div class="ul-about-vectors">
-        <img src="{{ asset('front') }}/assets/img/about-vector-1.png" alt="vector" class="vector-1">
+        <img src="{{ asset('front') }}/assets/img/about-vector-1.webp" alt="vector" class="vector-1">
       </div>
     </section>
     <!-- ABOUT SECTION END -->
@@ -149,9 +150,9 @@
           <div class="flex-shrink-0">
             <div class="ul-banner-stat">
               <div class="imgs">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Person">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Person">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Person">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Person">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Person">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Person">
                 <span class="number">2.M</span>
               </div>
               <span class="txt text-white">Active donors</span>
@@ -172,7 +173,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/education-based.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/education-based.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -201,7 +202,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/therapy-stude.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/therapy-stude.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -229,7 +230,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/support-skill.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/support-skill.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -258,7 +259,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/mobilitys.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/mobilitys.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -286,7 +287,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/donation-5.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -315,7 +316,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/school-donations.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/school-donations.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -343,7 +344,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/deep-school.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/deep-school.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -371,7 +372,7 @@
             <div class="swiper-slide">
               <div class="ul-donation">
                 <div class="ul-donation-img">
-                  <img src="{{ asset('front') }}/assets/img/donation-8.jpeg" alt="donation Image">
+                  <img src="{{ asset('front') }}/assets/img/donation-8.webp" alt="donation Image">
                 </div>
                 <div class="ul-donation-txt">
                   <div class="ul-donation-progress">
@@ -545,7 +546,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/sparashs.jpeg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/sparashs.webp" alt="Event Image">
                   <span class="date">18 <span>Aug</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -567,7 +568,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/udaan-2.jpeg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/udaan-2.webp" alt="Event Image">
                   <span class="date">15 <span>Dec</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -591,7 +592,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/asaha.jpg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/asaha.webp" alt="Event Image">
                   <span class="date">20 <span>May</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -615,7 +616,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/Saksham.png" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/Saksham.webp" alt="Event Image">
                   <span class="date">25 <span>Nov</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -639,7 +640,7 @@
       </div>
       <!-- vectors -->
       <div class="ul-events-vectors">
-        <img src="{{ asset('front') }}/assets/img/events-vector-1.png" alt="Events Image" class="vector-1">
+        <img src="{{ asset('front') }}/assets/img/events-vector-1.webp" alt="Events Image" class="vector-1">
         <img src="{{ asset('front') }}/assets/img/events-vector-2.svg" alt="Events Image" class="vector-2">
       </div>
     </section>
@@ -652,8 +653,8 @@
           <div class="row row-cols-md-2 row-cols-1 gy-4 align-items-center">
             <div class="col">
               <div class="ul-why-join-img">
-                <!-- <img src="{{ asset('front') }}/assets/img/why-join.jpg" alt="Image"> -->
-                <img src="{{ asset('front') }}/assets/img/Volunteer-2.jpg" alt="Image">
+                <!-- <img src="{{ asset('front') }}/assets/img/why-join.webp" alt="Image"> -->
+                <img src="{{ asset('front') }}/assets/img/Volunteer-2.webp" alt="Image">
               </div>
             </div>
 
@@ -745,97 +746,97 @@
 
     <!-- TEAM SECTION START -->
     <!-- <section class="ul-team ul-section-spacing pt-0">
-                                            <div class="ul-container">
-                                                Heading
-                                                <div class="ul-section-heading justify-content-between">
-                                                    <div class="left">
-                                                        <span class="ul-section-sub-title">Our Team</span>
-                                                        <h2 class="ul-section-title">Skilled Legal Professionals Dedicated to You</h2>
+                                                <div class="ul-container">
+                                                    Heading
+                                                    <div class="ul-section-heading justify-content-between">
+                                                        <div class="left">
+                                                            <span class="ul-section-sub-title">Our Team</span>
+                                                            <h2 class="ul-section-title">Skilled Legal Professionals Dedicated to You</h2>
+                                                        </div>
+                                                        <div>
+                                                            <a href="{{ route('team') }}" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
+                                                        </div>
                                                     </div>
-                                                    <div>
-                                                        <a href="{{ route('team') }}" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
+
+                                                    <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
+                                                        single member
+                                                        <div class="col">
+                                                            <div class="ul-team-member">
+                                                                <div class="ul-team-member-img">
+                                                                    <img src="{{ asset('front') }}/assets/img/aman-mam.webp" alt="Team Member Image">
+                                                                    <div class="ul-team-member-socials">
+                                                                        <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                                <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                                <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                                <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ul-team-member-info">
+                                                                    <h3 class="ul-team-member-name"><a href="team-details.html">Aman Ahlawat</a></h3>
+                                                                    <p class="ul-team-member-designation">General Secretary</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        single member
+                                                        <div class="col">
+                                                            <div class="ul-team-member">
+                                                                <div class="ul-team-member-img">
+                                                                    <img src="{{ asset('front') }}/assets/img/rahul-sharma.webp" alt="Team Member Image">
+                                                                    <div class="ul-team-member-socials">
+                                                                        <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                                <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                                <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                                <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ul-team-member-info">
+                                                                    <h3 class="ul-team-member-name"><a href="team-details.html">Rahul-Sharma</a></h3>
+                                                                    <p class="ul-team-member-designation">President</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        single member
+                                                        <div class="col">
+                                                            <div class="ul-team-member">
+                                                                <div class="ul-team-member-img">
+                                                                    <img src="{{ asset('front') }}/assets/img/member-3.webp" alt="Team Member Image">
+                                                                    <div class="ul-team-member-socials">
+                                                                        <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                                <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                                <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                                <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ul-team-member-info">
+                                                                    <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                                                    <p class="ul-team-member-designation">Attorney</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        single member
+                                                         <div class="col">
+                                                            <div class="ul-team-member">
+                                                                <div class="ul-team-member-img">
+                                                                    <img src="{{ asset('front') }}/assets/img/member-4.webp" alt="Team Member Image">
+                                                                    <div class="ul-team-member-socials">
+                                                                        <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                                                                <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                                                                <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                                                                <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ul-team-member-info">
+                                                                    <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                                                    <p class="ul-team-member-designation">Attorney</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-
-                                                <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
-                                                    single member
-                                                    <div class="col">
-                                                        <div class="ul-team-member">
-                                                            <div class="ul-team-member-img">
-                                                                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
-                                                                <div class="ul-team-member-socials">
-                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ul-team-member-info">
-                                                                <h3 class="ul-team-member-name"><a href="team-details.html">Aman Ahlawat</a></h3>
-                                                                <p class="ul-team-member-designation">General Secretary</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    single member
-                                                    <div class="col">
-                                                        <div class="ul-team-member">
-                                                            <div class="ul-team-member-img">
-                                                                <img src="{{ asset('front') }}/assets/img/rahul-sharma.jpeg" alt="Team Member Image">
-                                                                <div class="ul-team-member-socials">
-                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ul-team-member-info">
-                                                                <h3 class="ul-team-member-name"><a href="team-details.html">Rahul-Sharma</a></h3>
-                                                                <p class="ul-team-member-designation">President</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    single member
-                                                    <div class="col">
-                                                        <div class="ul-team-member">
-                                                            <div class="ul-team-member-img">
-                                                                <img src="{{ asset('front') }}/assets/img/member-3.jpg" alt="Team Member Image">
-                                                                <div class="ul-team-member-socials">
-                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ul-team-member-info">
-                                                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                                                <p class="ul-team-member-designation">Attorney</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    single member
-                                                     <div class="col">
-                                                        <div class="ul-team-member">
-                                                            <div class="ul-team-member-img">
-                                                                <img src="{{ asset('front') }}/assets/img/member-4.jpg" alt="Team Member Image">
-                                                                <div class="ul-team-member-socials">
-                                                                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                                                            <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                                                            <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                                                            <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ul-team-member-info">
-                                                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                                                <p class="ul-team-member-designation">Attorney</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section> -->
+                                            </section> -->
     <!-- TEAM SECTION END -->
 
     <!-- TESTIMONIAL SECTION START -->
@@ -865,7 +866,7 @@
                 </p>
                 <div class="ul-review-bottom">
                   <div class="ul-review-reviewer">
-                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                         alt="reviewer image"></div>
                     <div>
                       <h3 class="reviewer-name">Amanpreet Singh</h3>
@@ -894,7 +895,7 @@
                 </p>
                 <div class="ul-review-bottom">
                   <div class="ul-review-reviewer">
-                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                         alt="reviewer image"></div>
                     <div>
                       <h3 class="reviewer-name">Simran Kaur</h3>
@@ -923,7 +924,7 @@
                   appreciate their efforts!</p>
                 <div class="ul-review-bottom">
                   <div class="ul-review-reviewer">
-                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                         alt="reviewer image"></div>
                     <div>
                       <h3 class="reviewer-name">Rajesh Sharma</h3>
@@ -951,7 +952,7 @@
                   school subjects. This has helped many kids gain confidence and knowledge. A great initiative!</p>
                 <div class="ul-review-bottom">
                   <div class="ul-review-reviewer">
-                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                         alt="reviewer image"></div>
                     <div>
                       <h3 class="reviewer-name">Navjot Bansal</h3>
@@ -979,7 +980,7 @@
                   human beings. They teach kindness, responsibility, and confidence. Their work is truly inspiring!</p>
                 <div class="ul-review-bottom">
                   <div class="ul-review-reviewer">
-                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                    <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                         alt="reviewer image"></div>
                     <div>
                       <h3 class="reviewer-name">Harpreet Singh</h3>
@@ -1027,7 +1028,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.png"
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.webp"
                         alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
@@ -1059,7 +1060,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.jpeg"
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.webp"
                         alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
@@ -1093,7 +1094,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.jpeg"
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.webp"
                         alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
@@ -1126,7 +1127,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.jpeg"
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.webp"
                         alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
@@ -1160,7 +1161,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.jpeg"
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.webp"
                         alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
@@ -1192,7 +1193,7 @@
                 <!-- single blog -->
                 <div class="swiper-slide">
                   <div class="ul-blog">
-                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.jpeg"
+                    <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.webp"
                         alt="Blog Image">
                       <div class="date">
                         <span class="number">15</span>
@@ -1234,7 +1235,7 @@
         <div class="swiper-wrapper">
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1242,7 +1243,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/asaha.jpg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/asaha.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1250,7 +1251,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/donation-3.jpeg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/donation-3.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1258,7 +1259,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/mobilitys.jpeg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/mobilitys.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1266,7 +1267,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/donation-5.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1274,7 +1275,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/donation-6.jpeg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/donation-6.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1282,7 +1283,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/sparashs.jpeg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/sparashs.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>
@@ -1290,7 +1291,7 @@
 
           <!-- single gallery item -->
           <div class="ul-gallery-item swiper-slide">
-            <img src="{{ asset('front') }}/assets/img/saksham-3.jpeg" alt="Gallery Image">
+            <img src="{{ asset('front') }}/assets/img/saksham-3.webp" alt="Gallery Image">
             <div class="ul-gallery-item-btn-wrapper">
               <a href="https://www.instagram.com/gyan.deepngo/"><i class="flaticon-instagram"></i></a>
             </div>

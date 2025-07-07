@@ -23,8 +23,8 @@
         <div class="row row-cols-md-2 row-cols-1 gy-4 align-items-center">
           <div class="col">
             <div class="ul-why-join-img">
-              <!-- <img src="{{ asset('front') }}/assets/img/why-join.jpg" alt="Image"> -->
-              <img src="{{ asset('front') }}/assets/img/Volunteer-2.jpg" alt="Image">
+              <!-- <img src="{{ asset('front') }}/assets/img/why-join.webp" alt="Image"> -->
+              <img src="{{ asset('front') }}/assets/img/Volunteer-2.webp" alt="Image">
             </div>
           </div>
 

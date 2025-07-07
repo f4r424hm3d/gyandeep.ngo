@@ -24,7 +24,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>
@@ -56,7 +56,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.jpeg" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-2.webp" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>
@@ -87,7 +87,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.jpeg" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-5.webp" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>
@@ -117,7 +117,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.jpeg" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-child.webp" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>
@@ -148,7 +148,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.jpeg" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/mobilitys.webp" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>
@@ -178,7 +178,7 @@
           <!-- single blog -->
           <div class="col">
             <div class="ul-blog ul-blog-2">
-              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.jpeg" alt="Blog Image">
+              <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/donation-7.webp" alt="Blog Image">
                 <div class="date">
                   <span class="number">15</span>
                   <span class="txt">Dec</span>

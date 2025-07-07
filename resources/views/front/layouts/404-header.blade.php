@@ -6,8 +6,8 @@
 <meta name="Distribution" content="Global" />
 <meta name="googlebot" content=" noindex, follow " />
 <meta property="og:title" content="Page not found | Education Malaysia Education" />
-<link rel="shortcut icon" href="{{ asset('/front/') }}/img/favicon.png" type="image/x-icon">
-<link rel="apple-touch-icon" href="{{ asset('/front/') }}/img/favicon.png" />
+<link rel="shortcut icon" href="{{ asset('/front/') }}/img/favicon.webp" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{ asset('/front/') }}/img/favicon.webp" />
 <!-- CSS -->
 <link href="{{ url('front/') }}/assets/css/styles.css" rel="stylesheet">
 <link href="{{ url('front/') }}/assets/css/colors.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     "@id": "https://www.educationmalaysia.in/#organization",
     "name": "favicon",
     "url": "https://www.educationmalaysia.in/",
-    "logo": "{{ asset('/front/') }}/img/logo.png",
+    "logo": "{{ asset('/front/') }}/img/logo.webp",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "B-16 Ground Floor, Mayfield Garden, Sector 50",

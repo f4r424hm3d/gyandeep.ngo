@@ -20,7 +20,7 @@
     <section class="ul-404 ul-section-spacing text-center">
       <div class="ul-404-container">
         <div class="ul-404-img">
-          <img src="{{ asset('front') }}/assets/img/404-img.png" alt="Image">
+          <img src="{{ asset('front') }}/assets/img/404-img.webp" alt="Image">
         </div>
         <h2 class="ul-section-title">Oops! Somethings Went Wrong Please Try Again Later</h2>
         <p>Sorry about that, but the page you looking is not available now</p>

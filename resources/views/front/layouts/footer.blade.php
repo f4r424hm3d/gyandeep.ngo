@@ -1,20 +1,22 @@
 <!-- marquee tag START  -->
 <marquee class="marque-moved" behavior="" direction="left">
-        <ul class="new-offers">
-            <li> <span class="pg-walfare" > <img class="caps" src="{{ asset('front') }}/assets/img/cap.png" alt="cap">
- GYANDEEP WELFARE & REHABILITATION SOCIETY DASUYA (PB)</span> <span>RCI CODE:PB019 </span> <span class="open-details" >ADMISSION OPEN (2025-26)</span> <span class="main-edu"> D.Ed In SPL. Education (IDD) <span class="new-spns">APPLY NOW</span>  </span>    </li>
-        </ul>
-        
-    </marquee>
+  <ul class="new-offers">
+    <li> <span class="pg-walfare"> <img class="caps" src="{{ asset('front') }}/assets/img/cap.webp" alt="cap">
+        GYANDEEP WELFARE & REHABILITATION SOCIETY DASUYA (PB)</span> <span>RCI CODE:PB019 </span> <span
+        class="open-details">ADMISSION OPEN (2025-26)</span> <span class="main-edu"> D.Ed In SPL. Education (IDD) <span
+          class="new-spns">APPLY NOW</span> </span> </li>
+  </ul>
+
+</marquee>
 <!-- END  -->
 
 <!-- FOOTER SECTION START -->
 <footer class="ul-footer">
-       <div class="whats-float">
-  <a href="https://wa.me/+919289333536" class="open-button">
-    <!-- <span>Need any help<br><small>Chat with us</small></span> -->
-    <img  alt="whatsapp image" src="{{ asset('front/assets/img/whatsap-icons.png') }}"></a>
-</div>
+  <div class="whats-float">
+    <a href="https://wa.me/+919289333536" class="open-button">
+      <!-- <span>Need any help<br><small>Chat with us</small></span> -->
+      <img alt="whatsapp image" src="{{ asset('front/assets/img/whatsap-icons.webp') }}"></a>
+  </div>
 
   <div class="ul-footer-top">
     <div class="ul-footer-container">
@@ -30,7 +32,8 @@
           <!-- txt -->
           <div class="ul-footer-top-contact-info-txt">
             <span class="ul-footer-top-contact-info-label text-start">Address</span>
-            <h5 class="ul-footer-top-contact-info-address text-start">H.No. 538/1, Ward 7, Kirpal Colony, Dasuya, District
+            <h5 class="ul-footer-top-contact-info-address text-start">H.No. 538/1, Ward 7, Kirpal Colony, Dasuya,
+              District
               Hoshiarpur, Punjab – 144205</h5>
           </div>
         </div>
@@ -46,7 +49,8 @@
           <!-- txt -->
           <div class="ul-footer-top-contact-info-txt">
             <span class="ul-footer-top-contact-info-label text-start">Send Email</span>
-            <h5 class="ul-footer-top-contact-info-address text-start"><a href="mailto:info@gyandeep.ngo">info@gyandeep.ngo</a>
+            <h5 class="ul-footer-top-contact-info-address text-start"><a
+                href="mailto:info@gyandeep.ngo">info@gyandeep.ngo</a>
             </h5>
           </div>
         </div>
@@ -74,9 +78,10 @@
       <div class="ul-footer-middle-wrapper wow animate__fadeInUp">
         <div class="ul-footer-about text-start">
           <a href="{{ route('home') }}">
-            <h5 class="main-logo"> <img src="{{ asset('front') }}/assets/img/plant.png" alt=""></h5>
+            <h5 class="main-logo"> <img src="{{ asset('front') }}/assets/img/plant.webp" alt=""></h5>
           </a>
-          <p class="ul-footer-about-txt text-start">A registered non-profit organization committed to the welfare, education, and
+          <p class="ul-footer-about-txt text-start">A registered non-profit organization committed to the welfare,
+            education, and
             rehabilitation of differently-abled individuals</p>
           <div class="ul-footer-socials">
             <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
@@ -105,7 +110,7 @@
             <!-- single post -->
             <div class="ul-blog-sidebar-post ul-footer-post">
               <div class="img">
-                <img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Post Image">
+                <img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="Post Image">
 
               </div>
 
@@ -115,7 +120,8 @@
                   <span>May 12, 2025</span>
                 </span>
 
-                <h4 class="title text-start"><a href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}">Breaking
+                <h4 class="title text-start"><a
+                    href="{{ route('blog.detail', ['blog_slug' => 'blog-details']) }}">Breaking
                     Barriers with Inclusive Education.</a></h4>
               </div>
             </div>
@@ -123,7 +129,7 @@
             <!-- single post -->
             <div class="ul-blog-sidebar-post ul-footer-post">
               <div class="img text-start">
-                <img src="{{ asset('front') }}/assets/img/donation-2.jpeg" alt="Post Image">
+                <img src="{{ asset('front') }}/assets/img/donation-2.webp" alt="Post Image">
               </div>
 
               <div class="txt text-start">
@@ -132,7 +138,8 @@
                   <span>May 12, 2025</span>
                 </span>
 
-                <h4 class="title text-start"><a href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}">How
+                <h4 class="title text-start"><a
+                    href="{{ route('blog.detail', ['blog_slug' => 'blog-details-one']) }}">How
                     Therapy Transforms Young Lives</a></h4>
               </div>
             </div>
@@ -183,7 +190,7 @@
 
   <!-- vector -->
   <div class="ul-footer-vectors">
-    <img src="{{ asset('front') }}/assets/img/footer-vector-img.png" alt="Footer Image" class="ul-footer-vector-1">
+    <img src="{{ asset('front') }}/assets/img/footer-vector-img.webp" alt="Footer Image" class="ul-footer-vector-1">
   </div>
 </footer>
 <!-- FOOTER SECTION END -->

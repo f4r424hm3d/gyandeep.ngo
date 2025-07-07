@@ -23,7 +23,7 @@
           <div class="row justify-content-between gx-0 gy-3">
             <div class="col-md-5">
               <div class="ul-team-details-img wow animate__fadeInUp">
-                <img src="{{ asset('front') }}/assets/img/team-details-img.jpg" alt="team member image">
+                <img src="{{ asset('front') }}/assets/img/team-details-img.webp" alt="team member image">
               </div>
             </div>
 

@@ -27,7 +27,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event ul-event--inner">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/sparashs.jpeg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/sparashs.webp" alt="Event Image">
                   <span class="date">18 <span>Aug</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -50,7 +50,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event ul-event--inner">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/udaan-2.jpeg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/udaan-2.webp" alt="Event Image">
                   <span class="date">29 <span>July</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -74,7 +74,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event ul-event--inner">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/asaha.jpg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/asaha.webp" alt="Event Image">
                   <span class="date">29 <span>July</span></span>
                 </div>
                 <div class="ul-event-txt">
@@ -98,7 +98,7 @@
             <div class="col wow animate__fadeInUp">
               <div class="ul-event ul-event--inner">
                 <div class="ul-event-img">
-                  <img src="{{ asset('front') }}/assets/img/saksham-3.jpeg" alt="Event Image">
+                  <img src="{{ asset('front') }}/assets/img/saksham-3.webp" alt="Event Image">
                   <span class="date">29 <span>July</span></span>
                 </div>
                 <div class="ul-event-txt">

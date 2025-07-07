@@ -24,7 +24,7 @@
           <div class="col">
             <div class="ul-about-imgs">
               <div class="img-wrapper">
-                <img src="{{ asset('front') }}/assets/img/about-img.png" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/about-img.webp" alt="Image">
               </div>
               <div class="ul-about-imgs-vectors">
                 <img src="{{ asset('front') }}/assets/img/about-img-vector-1.svg" alt="Image" class="vector-1">
@@ -54,7 +54,7 @@
                     <li>There are many variations of solve</li>
                   </ul>
                 </div>
-                <!-- <div class="block-right"><img src="{{ asset('front') }}/assets/img/about-block-img.jpg" alt="Image"></div> -->
+                <!-- <div class="block-right"><img src="{{ asset('front') }}/assets/img/about-block-img.webp" alt="Image"></div> -->
               </div>
 
               <div class="ul-about-bottom">
@@ -77,7 +77,7 @@
 
       <!-- vector -->
       <div class="ul-about-vectors">
-        <img src="{{ asset('front') }}/assets/img/about-vector-1.png" alt="vector" class="vector-1">
+        <img src="{{ asset('front') }}/assets/img/about-vector-1.webp" alt="vector" class="vector-1">
       </div>
     </section>
     <!-- ABOUT SECTION END -->
@@ -149,7 +149,7 @@
           <div class="ul-about-tabs-wrapper ">
             <div id="tab-mission" class="ul-tab ul-about-tab active">
               <div class="ul-about-tab-img">
-                <img src="{{ asset('front') }}/assets/img/missions.jpeg" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/missions.webp" alt="Image">
               </div>
 
               <div class="ul-about-tab-txt">
@@ -161,12 +161,12 @@
 
                 </p>
                 <!-- <ul class="ul-about-tab-list">
-                                                  <li>Therapeutic Services like speech, physiotherapy, and behavioral therapy.</li>
-                                                  <li>Inclusive Special Education tailored to each child’s unique learning needs.</li>
-                                                  <li>Skill Development Programs to prepare individuals for real-world jobs.</li>
-                                                  <li>Family & Parental Support to strengthen homes and build awareness
-                                                      .</li>
-                                              </ul> -->
+                                                      <li>Therapeutic Services like speech, physiotherapy, and behavioral therapy.</li>
+                                                      <li>Inclusive Special Education tailored to each child’s unique learning needs.</li>
+                                                      <li>Skill Development Programs to prepare individuals for real-world jobs.</li>
+                                                      <li>Family & Parental Support to strengthen homes and build awareness
+                                                          .</li>
+                                                  </ul> -->
                 <!-- <p class="ul-about-tab-descr">Behind every child we help and every family we guide, there is a team committed to creating lasting impact. Gyandeep is where care meets action—and where every life matters.</p> -->
               </div>
             </div>
@@ -174,7 +174,7 @@
             <!-- tab 02 / vision -->
             <div id="tab-vision" class="ul-tab ul-about-tab">
               <div class="ul-about-tab-img">
-                <img src="{{ asset('front') }}/assets/img/vissons.jpeg" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/vissons.webp" alt="Image">
               </div>
 
               <div class="ul-about-tab-txt">
@@ -186,22 +186,22 @@
 
                 </p>
                 <!-- <ul class="ul-about-tab-list">
-                                                  <li>Promoting inclusive education</li>
-                <li>Expanding access to therapies</li>
-                <li>Empowering through vocational skills</li>
-                <li>Supporting families and caregivers</li>
-                <li>Advocating for disability rights</li>
-                <li>Distributing assistive devices</li>
-                <li>Raising awareness to end stigma</li>
-                <li>Building accessible public spaces</li>
-                                              </ul> -->
+                                                      <li>Promoting inclusive education</li>
+                    <li>Expanding access to therapies</li>
+                    <li>Empowering through vocational skills</li>
+                    <li>Supporting families and caregivers</li>
+                    <li>Advocating for disability rights</li>
+                    <li>Distributing assistive devices</li>
+                    <li>Raising awareness to end stigma</li>
+                    <li>Building accessible public spaces</li>
+                                                  </ul> -->
               </div>
             </div>
 
             <!-- tab 03 /  -->
             <div id="tab-history" class="ul-tab ul-about-tab">
               <div class="ul-about-tab-img">
-                <img src="{{ asset('front') }}/assets/img/deep-school.jpeg" alt="Image">
+                <img src="{{ asset('front') }}/assets/img/deep-school.webp" alt="Image">
               </div>
 
               <div class="ul-about-tab-txt">
@@ -258,147 +258,143 @@
         </div>
 
         <!-- <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
-          <div class="col">
-            <div class="ul-team-member">
-              <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
-                <div class="ul-team-member-socials">
-                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+              <div class="col">
+                <div class="ul-team-member">
+                  <div class="ul-team-member-img">
+                    <img src="{{ asset('front') }}/assets/img/aman-mam.webp" alt="Team Member Image">
+                    <div class="ul-team-member-socials">
+                      <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                      <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                      <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                      <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                    </div>
+                  </div>
+                  <div class="ul-team-member-info">
+                    <h3 class="ul-team-member-name"><a href="#">Aman Ahlawat</a></h3>
+                    <p class="ul-team-member-designation">General Secretary</p>
+                  </div>
                 </div>
               </div>
-              <div class="ul-team-member-info">
-                <h3 class="ul-team-member-name"><a href="#">Aman Ahlawat</a></h3>
-                <p class="ul-team-member-designation">General Secretary</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="ul-team-member">
-              <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/puran-chand.jpg" alt="Team Member Image">
-                <div class="ul-team-member-socials">
-                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+              <div class="col">
+                <div class="ul-team-member">
+                  <div class="ul-team-member-img">
+                    <img src="{{ asset('front') }}/assets/img/puran-chand.webp" alt="Team Member Image">
+                    <div class="ul-team-member-socials">
+                      <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                      <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                      <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
+                      <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                    </div>
+                  </div>
+                  <div class="ul-team-member-info">
+                    <h3 class="ul-team-member-name"><a href="#">Puran Chand</a></h3>
+                    <p class="ul-team-member-designation">President</p>
+                  </div>
                 </div>
               </div>
-              <div class="ul-team-member-info">
-                <h3 class="ul-team-member-name"><a href="#">Puran Chand</a></h3>
-                <p class="ul-team-member-designation">President</p>
-              </div>
-            </div>
-          </div>
 
-        </div> -->
-
-
-
-
+            </div> -->
 
         <!-- duplicate section start -->
-
 
         <div class="row ul-team-row justify-content-center">
           <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div class="row ul-team-member main-member">
-            <div class="col-12 col-sm-5 col-md-4 col-lg-6">
-            <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
-                <div class="ul-team-member-socials">
-                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+              <div class="col-12 col-sm-5 col-md-4 col-lg-6">
+                <div class="ul-team-member-img">
+                  <img src="{{ asset('front') }}/assets/img/aman-mam.webp" alt="Team Member Image">
+                  <div class="ul-team-member-socials">
+                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                    <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/gyandeep-ngo"><i
+                        class="flaticon-linkedin-big-logo"></i></a>
+                    <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-7 col-md-8 col-lg-6">
+                <div class="ul-team-member-info">
+                  <h3 class="ul-team-member-name"><a href="#">Aman Ahlawat</a></h3>
+                  <p class="ul-team-memberd">General Secretary</p>
+                  <p class="ul-team-member-designation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+                    dignissimos odio eum. Nostrum rem minima unde hic nobis provident explicabo culpa pariatur expedita
+                    quam, fugit dolorum aliquam atque corrupti repellat.</p>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-7 col-md-8 col-lg-6">
-            <div class="ul-team-member-info">
-                <h3 class="ul-team-member-name"><a href="#">Aman Ahlawat</a></h3>
-                <p class="ul-team-memberd">General Secretary</p>
-                <p class="ul-team-member-designation" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia dignissimos odio eum. Nostrum rem minima unde hic nobis provident explicabo culpa pariatur expedita quam, fugit dolorum aliquam atque corrupti repellat.</p>
-              </div>
-            </div>
-            </div>
-           
+
           </div>
 
           <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <div class="row ul-team-member main-member">
-          <div class="col-12 col-sm-5 col-md-4 col-lg-6">
-          <div class="ul-team-member-img">
-                <img src="{{ asset('front') }}/assets/img/puran-chand.jpg" alt="Team Member Image">
-                <div class="ul-team-member-socials">
-                  <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
-                  <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
-                  <a href="https://www.linkedin.com/company/gyandeep-ngo"><i class="flaticon-linkedin-big-logo"></i></a>
-                  <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+            <div class="row ul-team-member main-member">
+              <div class="col-12 col-sm-5 col-md-4 col-lg-6">
+                <div class="ul-team-member-img">
+                  <img src="{{ asset('front') }}/assets/img/puran-chand.webp" alt="Team Member Image">
+                  <div class="ul-team-member-socials">
+                    <a href="https://www.facebook.com/www.gyandeep.ngo"><i class="flaticon-facebook"></i></a>
+                    <a href="https://x.com/Gyandeepngo"><i class="flaticon-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/gyandeep-ngo"><i
+                        class="flaticon-linkedin-big-logo"></i></a>
+                    <a href="https://www.instagram.com/gyan.deepngo"><i class="flaticon-instagram"></i></a>
+                  </div>
                 </div>
               </div>
-          </div>
-          <div class="col-12 col-sm-7 col-md-8 col-lg-6">
-          <div class="ul-team-member-info">
-                <h3 class="ul-team-member-name"><a href="#">Puran Chand</a></h3>
-                <p class="ul-team-memberd">President</p>
-                <p class="ul-team-member-designation" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia dignissimos odio eum. Nostrum rem minima unde hic nobis provident explicabo culpa pariatur expedita quam, fugit dolorum aliquam atque corrupti repellat.</p>
+              <div class="col-12 col-sm-7 col-md-8 col-lg-6">
+                <div class="ul-team-member-info">
+                  <h3 class="ul-team-member-name"><a href="#">Puran Chand</a></h3>
+                  <p class="ul-team-memberd">President</p>
+                  <p class="ul-team-member-designation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+                    dignissimos odio eum. Nostrum rem minima unde hic nobis provident explicabo culpa pariatur expedita
+                    quam, fugit dolorum aliquam atque corrupti repellat.</p>
+                </div>
               </div>
-          </div>
-          </div>
-           
+            </div>
+
           </div>
 
         </div>
 
-
-
-         <!-- <section class="team-owner">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-6 col-md-6">
-              <div class="row">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
-                <div class="owner-team">
-                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+        <!-- <section class="team-owner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6">
+                  <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                    <div class="owner-team">
+                    <img src="{{ asset('front') }}/assets/img/aman-mam.webp" alt="Team Member Image">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                    <div class="owner-details">
+                      <h4>Aman Alawat</h4>
+                      <h6>General Secretary</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit, vitae ipsa tenetur pariatur voluptatibus expedita quibusdam vel saepe fugiat debitis aspernatur eveniet. Necessitatibus reprehenderit ipsum veniam facere sunt soluta.</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
-                <div class="owner-details">
-                  <h4>Aman Alawat</h4>
-                  <h6>General Secretary</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit, vitae ipsa tenetur pariatur voluptatibus expedita quibusdam vel saepe fugiat debitis aspernatur eveniet. Necessitatibus reprehenderit ipsum veniam facere sunt soluta.</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6">
+                  <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                    <div class="owner-team">
+                    <img src="{{ asset('front') }}/assets/img/aman-mam.webp" alt="Team Member Image">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                    <div class="owner-details">
+                      <h4>Aman Alawat</h4>
+                      <h6>General Secretary</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit, vitae ipsa tenetur pariatur voluptatibus expedita quibusdam vel saepe fugiat debitis aspernatur eveniet. Necessitatibus reprehenderit ipsum veniam facere sunt soluta.</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-6">
-              <div class="row">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
-                <div class="owner-team">
-                <img src="{{ asset('front') }}/assets/img/aman-mam.jpeg" alt="Team Member Image">
+                  </div>
                 </div>
+             
               </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
-                <div class="owner-details">
-                  <h4>Aman Alawat</h4>
-                  <h6>General Secretary</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit, vitae ipsa tenetur pariatur voluptatibus expedita quibusdam vel saepe fugiat debitis aspernatur eveniet. Necessitatibus reprehenderit ipsum veniam facere sunt soluta.</p>
-                </div>
-              </div>
-            </div>
-              </div>
-            </div>
-         
-          </div>
-         </section> -->
+             </section> -->
         <!-- duplicate section end -->
-
-
-
 
       </div>
     </section>
@@ -444,10 +440,10 @@
               <p class="ul-testimonial-2-overview-descr">Our inclusive mission and compassionate care have earned us
                 the trust of families and communities we proudly serve.</p>
               <div class="ul-testimonial-2-overview-reviewers">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Reviewer">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Reviewer">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Reviewer">
-                <img src="{{ asset('front') }}/assets/img/user-profile-2.png" alt="Reviewer">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Reviewer">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Reviewer">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Reviewer">
+                <img src="{{ asset('front') }}/assets/img/user-profile-2.webp" alt="Reviewer">
               </div>
             </div>
           </div>
@@ -465,7 +461,7 @@
                       child with love and dignity. We are forever grateful for their support and care.”</p>
                     <div class="ul-review-bottom">
                       <div class="ul-review-reviewer">
-                        <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                        <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                             alt="reviewer image">
                         </div>
                         <div>
@@ -487,7 +483,7 @@
                       commendable. They are truly transforming lives in our community.”</p>
                     <div class="ul-review-bottom">
                       <div class="ul-review-reviewer">
-                        <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.png"
+                        <div class="reviewer-image"><img src="{{ asset('front') }}/assets/img/user-profile.webp"
                             alt="reviewer image">
                         </div>
                         <div>

@@ -7,8 +7,8 @@
 <meta name="keywords" content="<?php echo $meta_keyword; ?>">
 <link rel="canonical" href="<?php echo $page_url; ?>" />
 
-<link rel="shortcut icon" href="{{ asset('/front/') }}/assets/img/favicon.png" type="image/x-icon">
-<link rel="apple-touch-icon" href="{{ asset('/front/') }}/assets/img/favicon.png" />
+<link rel="shortcut icon" href="{{ asset('/front/') }}/assets/img/favicon.webp" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{ asset('/front/') }}/assets/img/favicon.webp" />
 
 <!-- FB Meta Tag Starts-->
 <meta property="og:title" content="<?php echo $meta_title; ?>" />

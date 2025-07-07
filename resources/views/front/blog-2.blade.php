@@ -50,47 +50,47 @@
 
               <!-- single widget / Recent Posts -->
               <!-- <div class="ul-inner-sidebar-widget posts">
-                                                    <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
-                                                    <div class="ul-inner-sidebar-widget-content">
-                                                        <div class="ul-inner-sidebar-posts">
-                                                            single post
-                                                            <div class="ul-inner-sidebar-post">
-                                                                <div class="img">
-                                                                    <img src="{{ asset('front') }}/assets/img/blog-2.jpeg" alt="Post Image">
+                                                        <h3 class="ul-inner-sidebar-widget-title">Recent Posts</h3>
+                                                        <div class="ul-inner-sidebar-widget-content">
+                                                            <div class="ul-inner-sidebar-posts">
+                                                                single post
+                                                                <div class="ul-inner-sidebar-post">
+                                                                    <div class="img">
+                                                                        <img src="{{ asset('front') }}/assets/img/blog-2.webp" alt="Post Image">
+                                                                    </div>
+
+                                                                    <div class="txt">
+                                                                        <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                                        <span class="date"> <span>May 12, 2025</span></span>
+                                                                    </div>
                                                                 </div>
 
-                                                                <div class="txt">
-                                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                                    <span class="date"> <span>May 12, 2025</span></span>
-                                                                </div>
-                                                            </div>
+                                                                single post
+                                                                <div class="ul-inner-sidebar-post">
+                                                                    <div class="img">
+                                                                        <img src="{{ asset('front') }}/assets/img/blog-1.webp" alt="Post Image">
+                                                                    </div>
 
-                                                            single post
-                                                            <div class="ul-inner-sidebar-post">
-                                                                <div class="img">
-                                                                    <img src="{{ asset('front') }}/assets/img/blog-1.jpg" alt="Post Image">
-                                                                </div>
-
-                                                                <div class="txt">
-                                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                                    <span class="date"> <span>May 12, 2025</span></span>
-                                                                </div>
-                                                            </div>
-
-                                                            single post
-                                                            <div class="ul-inner-sidebar-post">
-                                                                <div class="img">
-                                                                    <img src="{{ asset('front') }}/assets/img/blog-3.jpg" alt="Post Image">
+                                                                    <div class="txt">
+                                                                        <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                                        <span class="date"> <span>May 12, 2025</span></span>
+                                                                    </div>
                                                                 </div>
 
-                                                                <div class="txt">
-                                                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
-                                                                    <span class="date"> <span>May 12, 2025</span></span>
+                                                                single post
+                                                                <div class="ul-inner-sidebar-post">
+                                                                    <div class="img">
+                                                                        <img src="{{ asset('front') }}/assets/img/blog-3.webp" alt="Post Image">
+                                                                    </div>
+
+                                                                    <div class="txt">
+                                                                        <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                                                        <span class="date"> <span>May 12, 2025</span></span>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div> -->
+                                                    </div> -->
 
               <!-- single widget / Tags -->
               <div class="ul-inner-sidebar-widget tags">
@@ -117,7 +117,7 @@
             <div>
               <!-- single blog -->
               <div class="ul-blog ul-blog-2 ul-blog-inner">
-                <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-b-1.jpg" alt="Blog Image"></div>
+                <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-b-1.webp" alt="Blog Image"></div>
                 <div class="ul-blog-txt">
                   <div class="ul-blog-infos">
                     <!-- single info -->
@@ -143,7 +143,7 @@
 
               <!-- single blog -->
               <div class="ul-blog ul-blog-2 ul-blog-inner">
-                <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-b-2.jpg" alt="Blog Image"></div>
+                <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-b-2.webp" alt="Blog Image"></div>
                 <div class="ul-blog-txt">
                   <div class="ul-blog-infos">
                     <!-- single info -->
@@ -169,7 +169,7 @@
 
               <!-- single blog -->
               <div class="ul-blog ul-blog-2 ul-blog-inner">
-                <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-b-3.jpg" alt="Blog Image">
+                <div class="ul-blog-img"><img src="{{ asset('front') }}/assets/img/blog-b-3.webp" alt="Blog Image">
                 </div>
                 <div class="ul-blog-txt">
                   <div class="ul-blog-infos">
@@ -272,7 +272,7 @@
         <div class="ul-footer-middle-wrapper wow animate__fadeInUp">
           <div class="ul-footer-about">
             <a href="{{ route('home') }}">
-              <h5 class="main-logo"> <img src="{{ asset('front') }}/assets/img/plant.png" alt=""></h5>
+              <h5 class="main-logo"> <img src="{{ asset('front') }}/assets/img/plant.webp" alt=""></h5>
             </a>
             <p class="ul-footer-about-txt">A registered non-profit organization committed to the welfare, education,
               and rehabilitation of differently-abled individuals</p>
@@ -303,7 +303,7 @@
               <!-- single post -->
               <div class="ul-blog-sidebar-post ul-footer-post">
                 <div class="img">
-                  <img src="{{ asset('front') }}/assets/img/donation-1.png" alt="Post Image">
+                  <img src="{{ asset('front') }}/assets/img/donation-1.webp" alt="Post Image">
                 </div>
 
                 <div class="txt">
@@ -320,7 +320,7 @@
               <!-- single post -->
               <div class="ul-blog-sidebar-post ul-footer-post">
                 <div class="img">
-                  <img src="{{ asset('front') }}/assets/img/donation-2.jpeg" alt="Post Image">
+                  <img src="{{ asset('front') }}/assets/img/donation-2.webp" alt="Post Image">
                 </div>
 
                 <div class="txt">
@@ -376,7 +376,7 @@
 
     <!-- vector -->
     <div class="ul-footer-vectors">
-      <img src="{{ asset('front') }}/assets/img/footer-vector-img.png" alt="Footer Image" class="ul-footer-vector-1">
+      <img src="{{ asset('front') }}/assets/img/footer-vector-img.webp" alt="Footer Image" class="ul-footer-vector-1">
     </div>
   </footer>
   <!-- FOOTER SECTION END -->

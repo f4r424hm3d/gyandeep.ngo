@@ -23,19 +23,19 @@
           <!-- single slide -->
           <div class="swiper-slide">
             <div>
-              <img src="{{ asset('front') }}/assets/img/Vocational-Trainings.jpg" alt="Image">
+              <img src="{{ asset('front') }}/assets/img/Vocational-Trainings.webp" alt="Image">
             </div>
           </div>
           <!-- single slide -->
           <!-- <div class="swiper-slide">
                               <div>
-                                  <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
+                                  <img src="{{ asset('front') }}/assets/img/project-details-img-1.webp" alt="Image">
                               </div>
                           </div> -->
           <!-- single slide -->
           <!-- <div class="swiper-slide">
                               <div>
-                                  <img src="{{ asset('front') }}/assets/img/project-details-img-1.jpg" alt="Image">
+                                  <img src="{{ asset('front') }}/assets/img/project-details-img-1.webp" alt="Image">
                               </div>
                           </div> -->
         </div>
